@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/Trabajo_practico_portfolio/static/css/main.5b5391f7.css",
-    "main.js": "/Trabajo_practico_portfolio/static/js/main.c92e327e.js",
-    "static/media/imagen_3.jpg": "/Trabajo_practico_portfolio/static/media/imagen_3.e45f70ab295964cd5d15.jpg",
-    "static/media/imagen_1.jpg": "/Trabajo_practico_portfolio/static/media/imagen_1.a56b6a7110952280aa29.jpg",
-    "static/media/imagen_2.jpg": "/Trabajo_practico_portfolio/static/media/imagen_2.422a0f045ffc09a592c5.jpg",
-    "static/media/imagen_6.jpg": "/Trabajo_practico_portfolio/static/media/imagen_6.c473b16d5fc36a87c350.jpg",
-    "static/media/imagen_5.jpg": "/Trabajo_practico_portfolio/static/media/imagen_5.fc0070afe6d02e8f9d29.jpg",
-    "static/media/imagen_4.jpg": "/Trabajo_practico_portfolio/static/media/imagen_4.04a68cfb2c9c1cb1d209.jpg",
-    "index.html": "/Trabajo_practico_portfolio/index.html",
-    "main.5b5391f7.css.map": "/Trabajo_practico_portfolio/static/css/main.5b5391f7.css.map",
-    "main.c92e327e.js.map": "/Trabajo_practico_portfolio/static/js/main.c92e327e.js.map"
+    "main.css": "/Trabajo_Practico_Portfolio/static/css/main.c7ca4932.css",
+    "main.js": "/Trabajo_Practico_Portfolio/static/js/main.0deee0d1.js",
+    "static/media/imagen_3.jpg": "/Trabajo_Practico_Portfolio/static/media/imagen_3.e45f70ab295964cd5d15.jpg",
+    "static/media/imagen_1.jpg": "/Trabajo_Practico_Portfolio/static/media/imagen_1.a56b6a7110952280aa29.jpg",
+    "static/media/imagen_2.jpg": "/Trabajo_Practico_Portfolio/static/media/imagen_2.422a0f045ffc09a592c5.jpg",
+    "static/media/imagen_6.jpg": "/Trabajo_Practico_Portfolio/static/media/imagen_6.c473b16d5fc36a87c350.jpg",
+    "static/media/imagen_5.jpg": "/Trabajo_Practico_Portfolio/static/media/imagen_5.fc0070afe6d02e8f9d29.jpg",
+    "static/media/imagen_4.jpg": "/Trabajo_Practico_Portfolio/static/media/imagen_4.04a68cfb2c9c1cb1d209.jpg",
+    "index.html": "/Trabajo_Practico_Portfolio/index.html",
+    "main.c7ca4932.css.map": "/Trabajo_Practico_Portfolio/static/css/main.c7ca4932.css.map",
+    "main.0deee0d1.js.map": "/Trabajo_Practico_Portfolio/static/js/main.0deee0d1.js.map"
   },
   "entrypoints": [
-    "static/css/main.5b5391f7.css",
-    "static/js/main.c92e327e.js"
+    "static/css/main.c7ca4932.css",
+    "static/js/main.0deee0d1.js"
   ]
 }

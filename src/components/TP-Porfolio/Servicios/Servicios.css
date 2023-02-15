@@ -66,7 +66,18 @@
     .contenedorEtiqueas{
         width: 300px;
         height: 253px;
+    } 
+     .titulo_Etiqueta{
+        font-size:15px ;
+        
     }
+    .parrafoEtiqueta{
+        font-size: 12px;
+    }
+    .tituloEtiqueta{
+        margin-bottom: 8px;
+    }
+
 }
 @media(max-width:1000px){
     .contenedorEtiqueas{
@@ -98,11 +109,14 @@
     }
     .seccionServicios{
         height: 81vh;
+        display: flex;
+        align-items: center;
     }
     .contenedorEtiqueas{
         width: 251px;
         height: 198px;
     }
+  
 }
 @media(max-width:600px){
     .contenedorEtiqueas{

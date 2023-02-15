@@ -33,8 +33,6 @@
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    flex-wrap: wrap;
-    padding-top: 3%;
     padding-top: 4%;
     
 
@@ -75,7 +73,7 @@
         font-size: 12px;
     }
     .tituloEtiqueta{
-        margin-bottom: 8px;
+        margin-bottom: 17px;
     }
 
 }
@@ -85,19 +83,23 @@
         height: 222px;
     }
 }
-@media(max-width:957px){
+@media(max-width:900px){
     .contenedorEtiqueas{
         width: 226px;
         height: 222px;
     }
+    .seccionServicios{
+        display: flex;
+        
+    }
 }
 @media(max-width:800px){
     .contenedorEtiqueas{
-        width: 251px;
-        height: 198px;
+        width: 226px;
+        height: 222px;
     }
     .titulo_Etiqueta{
-        height: 9%;
+        height: 28%;
     }
     .seccionServicios{
         height: 82vh;
@@ -105,12 +107,12 @@
 }
 @media(max-width:700px){
     .titulo_Etiqueta{
-        height: 10%;
+        height: 28%;
     }
     .seccionServicios{
         height: 81vh;
         display: flex;
-        align-items: center;
+        align-items: flex-start;
     }
     .contenedorEtiqueas{
         width: 251px;
@@ -125,17 +127,17 @@
     }
 
 .titulo_Etiqueta{
-    height: 10%;
+    height: 28%;
 }
 .seccionServicios{
-padding-top: 0%;
+padding-top: 4%;
 height: 81vh;
 }
 }
 @media(max-width:500px){
 .titulo_Etiqueta{
 
-    height: 9%;
+    height: 5%;
 }
 .contenedorEtiqueas{
     width: 228px;
@@ -145,8 +147,8 @@ height: 81vh;
     flex-wrap: nowrap;
     flex-direction: column;
     align-items: center;
-    padding-top: 4%;
-    height: 91%;
+    padding-top: 1%;
+    height: 95%;
 
 }
 

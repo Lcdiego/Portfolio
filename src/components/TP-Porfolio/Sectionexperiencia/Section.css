@@ -3,32 +3,68 @@
     margin: 0;
     box-sizing: border-box;
 }
+.unionLineas{
+    border:2px solid white;
+    border-right: 2px solid rgb(26,29,33);
+    position: relative;
+    width: 30px;
+    height: 87px;
+    top:73px;
+    right: 0px;
+}
+.circulo1{
+    color: black;
+    position: relative;
+    top: -7px;
+    right: 7px;
+    background-color: white;
+    border-radius: 74%;
+    font-size: 10px;
+    display: block;
+    text-align: center;
+    width: 14px;
+
+}
+.circulo2{
+    color: black;
+    position: relative;
+    top: 60px;
+    right: 7px;
+    background-color: white;
+    border-radius: 74%;
+    font-size: 10px;
+    display: block;
+    text-align: center;
+    width: 14px;
+
+}
 .contenedorSection{
     width: 100vw;
-    height: 84vh;
+    height: 88vh;
     background-color: rgb(26,29,33);
     display: flex;
     justify-content: center;
+    align-items: flex-start;
    
     
     
     
 }
 .sectionExperiencia{
-
-    display: flex;
-    justify-content: flex-start;
-    
-    flex-direction: column;
-    
-    
-    width: 40%;
+ width: 37%;
+ margin-top: 45px;
     
     
     
 }
+.experienciaLaborales{
+    display: flex;
+    flex-direction: column;
+}
 .Experiencia{
-    margin-top: 6%;
+    display: flex;
+    justify-content: flex-start;
+    
 }
 .experienciaUno{
     margin-top: 10%;
@@ -39,7 +75,8 @@
 }
 .tituloSecundario{
     color: white;
-    margin-bottom: 25px;
+    margin-bottom: 0px;
+    
     
 }
 .parrafoExperiencia{
@@ -47,7 +84,7 @@
 }
 
 .porcentajes{
-    margin-top: 31px;
+    margin-top: 40px;
     width:36%;
 }
 
@@ -128,21 +165,103 @@ color: white;
 }
 
 @media(max-width:700px){
+    .sectionExperiencia{
+        width: 80%;
+        margin-left: 38px;
+    }
+    .Experiencia{
+        
+        margin-top: 40px;
+    }
     .contenedorSection{
         display: flex;
         flex-direction: column;
+        justify-content: flex-start;
 
     }
+    .unionLineas{
+        position: relative;
+        right: 0px;
+        top: 40px;
+        width: 24px;
+        height: 76px;
+
+    }
+    .circulo1{
+        color: black;
+        position: relative;
+        top: -7px;
+        right: 7px;
+        background-color: white;
+        border-radius: 74%;
+        font-size: 10px;
+        display: block;
+        text-align: center;
+        width: 14px;
+
+    }
+    .circulo2{
+        color: black;
+        position: relative;
+        top: 50px;
+        right: 7px;
+        background-color: white;
+        border-radius: 74%;
+        font-size: 10px;
+        display: block;
+        text-align: center;
+        width: 14px;
+
+    }
+    .tituloExperiencia{
+        margin-bottom: 0px;
+        font-size: 19px;
+    }
     .tituloSecundario{
-        padding-bottom: 0%;
+        font-size: 16px;
+        
+    }
+    .experienciaLaborales{
+        display: flex;
+        flex-direction: column;
     }
 
 .porcentajes{
-    width: 70%;
-    margin-left: 10%;
-    margin-top: 8%;
+    width: 71%;
+    margin-left: 38px;
+    margin-top: 5%;
+}
+.tituloPorcentajes{
+    font-size: 15px;
+}
+.linea1{
+    margin-bottom: 20px;
+}
+.linea2{
+    margin-bottom: 20px;
+}
+.linea3{
+    margin-bottom: 20px;
+
+}
+.linea4{
+    margin-bottom: 20px;
+}
+.linea5{
+    margin-bottom: 20px;
+}
+.linea6{
+    margin-bottom: 20px;
+}
+.linea7{
+    margin-bottom: 20px;
+}
+.linea8{
+    margin-bottom: 20px;
 }
 .sectionExperiencia{
-    margin-left: 10%;
+    margin-left: 0%;
+    width: 86%;
 }
+
 }

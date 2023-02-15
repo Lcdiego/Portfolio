@@ -4,23 +4,34 @@ import '../Sectionexperiencia/Section.css';
 const Section= () => {
     return(
         <div className='contenedorSection'id='contenedorSection'>
+         
                 <div className='sectionExperiencia'>
                     <div className='Experiencia'>
+                    <div className='unionLineas'>
+                <span className='circulo1'>o</span>
+                <span className=' circulo2'>o</span>
+            </div> 
+            <div className='experienciaLaborales'>
                         <h2 className='tituloExperiencia'>Mi experiencias</h2>
                         <h3 className='tituloSecundario'>Flamia SA</h3>
                         <p className='parrafoExperiencia' > React,Html,Js</p>
                         <p className='parrafoExperiencia'>2019-2022</p>
-                    </div>
+                        
+                    
                         <div className='experienciaUno'>
                             <h3 className='tituloSecundario'>Aluar SA</h3>
                             <p className='parrafoExperiencia'>Html,Css,Js</p>
                              <p className='parrafoExperiencia'>2015-2019</p>
                         </div>
+                        </div>
+                    </div>
+
+                          
                 </div>
 
                 
                 <div className='porcentajes'>
-                    <h2 className='tituloSecundario'>Mis Habilidades</h2>
+                    <h2 className='tituloExperiencia'>Mis Habilidades</h2>
 
                     <h3 className='tituloPorcentajes'>Html & Css</h3>
                     <div className='contenedorLineas_uno'>

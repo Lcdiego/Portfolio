@@ -197,9 +197,9 @@ color: white;
     .unionLineas{
         position: relative;
         right: 0px;
-        top: 50px;
+        top: 7px;
         width: 24px;
-        height: 85px;
+        height: 78px;
 
     }
     .circulo1{
@@ -218,7 +218,7 @@ color: white;
     .circulo2{
         color: black;
         position: relative;
-        top: 59px;
+        top: 52px;
         right: 7px;
         background-color: white;
         border-radius: 74%;

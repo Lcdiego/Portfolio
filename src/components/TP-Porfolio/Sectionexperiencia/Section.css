@@ -9,7 +9,7 @@
     position: relative;
     width: 30px;
     height: 87px;
-    top:53px;
+    top:12px;
     right: -2px;
 }
 .circulo1{
@@ -52,9 +52,9 @@
 }
 .sectionExperiencia{
  width: 37%;
- height: 57vh;
+ height: 84vh;
  display: flex;
- align-items: center;
+ 
     
     
     
@@ -65,7 +65,8 @@
 }
 .Experiencia{
     display: flex;
-    justify-content: flex-start;
+    align-items: center;
+    height: 81%;
     
 }
 .experienciaUno{
@@ -74,6 +75,7 @@
 .tituloExperiencia1{
     color: white;
     font-size: 26px;
+    padding-bottom:17px ;
     
 }
 .tituloExperiencia{
@@ -93,10 +95,10 @@
 
 .porcentajes{
      width:36%;
-     height: 71%;
+     height: 83vh;
      display: flex;
      flex-direction: column;
-     justify-content: flex-end;
+     justify-content: center;
 }
 
 .contenedorLineas_uno{

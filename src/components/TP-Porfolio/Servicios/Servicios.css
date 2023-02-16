@@ -71,7 +71,7 @@
         
     }
     .parrafoEtiqueta{
-        font-size: 12px;
+        font-size: 16px;
     }
     .tituloEtiqueta{
         margin-bottom: 17px;
@@ -88,6 +88,9 @@
     .contenedorEtiqueas{
         width: 226px;
         height: 222px;
+    }
+    .parrafoEtiqueta{
+        font-size: 13px;
     }
     .seccionServicios{
         display: flex;

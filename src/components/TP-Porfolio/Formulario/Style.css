@@ -44,6 +44,10 @@ align-items: center;
     
     
 }
+input:hover{
+    
+    background-color:rgb(166,175,184,0.3) ;
+}
 textarea{
     width: 86%;
     height: 36%;
@@ -55,6 +59,9 @@ textarea{
     
     
     
+}
+textarea:hover{
+    background-color:rgb(166,175,184,0.3) ;
 }
 .boton{
     margin-top: 20px;
@@ -92,6 +99,9 @@ textarea{
 @media( max-width:400px){
     .formulario{
         width: 82%;
+    }
+    .tituloFormulario{
+        font-size: 24px;
     }
 }
 

@@ -66,7 +66,8 @@
         height: 253px;
     } 
      .titulo_Etiqueta{
-        font-size:15px ;
+        font-size:25px ;
+        height: 21%;
         
     }
     .parrafoEtiqueta{
@@ -99,7 +100,7 @@
         height: 222px;
     }
     .titulo_Etiqueta{
-        height: 28%;
+        height: 23%;
     }
     .seccionServicios{
         height: 82vh;
@@ -107,7 +108,13 @@
 }
 @media(max-width:700px){
     .titulo_Etiqueta{
-        height: 28%;
+        height: 27%;
+    }
+    .tituloExperiencia1{
+        color: white;
+        font-size: 19px;
+        position: relative;
+        right: 28px;
     }
     .seccionServicios{
         height: 81vh;
@@ -136,12 +143,12 @@ height: 81vh;
 }
 @media(max-width:500px){
 .titulo_Etiqueta{
-
+    font-size: 20px;
     height: 5%;
 }
 .contenedorEtiqueas{
     width: 228px;
-    height: 187px;
+    height: 138px;
 }
 .seccionServicios{
     flex-wrap: nowrap;

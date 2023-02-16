@@ -12,7 +12,7 @@ const Section= () => {
                 <span className=' circulo2'>o</span>
             </div> 
             <div className='experienciaLaborales'>
-                        <h2 className='tituloExperiencia'>Mi experiencias</h2>
+                        <h2 className='tituloExperiencia1'>Mi experiencias</h2>
                         <h3 className='tituloSecundario'>Flamia SA</h3>
                         <p className='parrafoExperiencia' > React,Html,Js</p>
                         <p className='parrafoExperiencia'>2019-2022</p>

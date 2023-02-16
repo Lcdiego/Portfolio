@@ -9,8 +9,8 @@
     position: relative;
     width: 30px;
     height: 87px;
-    top:73px;
-    right: 0px;
+    top:53px;
+    right: -2px;
 }
 .circulo1{
     color: black;
@@ -52,7 +52,9 @@
 }
 .sectionExperiencia{
  width: 37%;
- margin-top: 45px;
+ height: 57vh;
+ display: flex;
+ align-items: center;
     
     
     
@@ -69,9 +71,15 @@
 .experienciaUno{
     margin-top: 10%;
 }
+.tituloExperiencia1{
+    color: white;
+    font-size: 26px;
+    
+}
 .tituloExperiencia{
     color: white;
     margin-bottom:25px ;
+    
 }
 .tituloSecundario{
     color: white;
@@ -84,8 +92,11 @@
 }
 
 .porcentajes{
-    margin-top: 40px;
-    width:36%;
+     width:36%;
+     height: 71%;
+     display: flex;
+     flex-direction: column;
+     justify-content: flex-end;
 }
 
 .contenedorLineas_uno{
@@ -165,10 +176,12 @@ color: white;
 }
 
 @media(max-width:700px){
-    .sectionExperiencia{
-        width: 80%;
-        margin-left: 38px;
-    }
+    
+        .sectionExperiencia{
+            margin-left: 38px;
+            width: 86%;
+            align-items: flex-start;
+        }
     .Experiencia{
         
         margin-top: 40px;
@@ -182,9 +195,9 @@ color: white;
     .unionLineas{
         position: relative;
         right: 0px;
-        top: 40px;
+        top: 50px;
         width: 24px;
-        height: 76px;
+        height: 85px;
 
     }
     .circulo1{
@@ -203,7 +216,7 @@ color: white;
     .circulo2{
         color: black;
         position: relative;
-        top: 50px;
+        top: 59px;
         right: 7px;
         background-color: white;
         border-radius: 74%;
@@ -216,6 +229,7 @@ color: white;
     .tituloExperiencia{
         margin-bottom: 0px;
         font-size: 19px;
+        margin-bottom: 10px;
     }
     .tituloSecundario{
         font-size: 16px;
@@ -259,9 +273,6 @@ color: white;
 .linea8{
     margin-bottom: 20px;
 }
-.sectionExperiencia{
-    margin-left: 0%;
-    width: 86%;
-}
+
 
 }

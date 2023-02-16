@@ -12,10 +12,17 @@ height: 108vh;
 .tituloProyectos{
     color: white;
     padding-top: 31px;
+    margin-bottom: 13px;
 }
 .menuProyecto{
     color: white;
-    margin: 10px;
+    padding: 6px 18px;
+    border-radius: 40px;
+    text-decoration: none;
+
+}
+.menuProyecto:hover{
+    background-color:rgb(166,175,184,0.3) ;
 }
 .contenedor_a{
     width: 100vw;
@@ -45,13 +52,20 @@ height: 108vh;
     
 }
 
+
 .proyectoImagen{
     width: 24%;
     height: 46%;
     margin: 10px;
+    animation: mover 40s;
+    animation-iteration-count: infinite;
+    cursor: pointer;
 }
-.proyectoImagen:hover{
-    transform: scale(1.15);
+
+@keyframes mover{
+    50%{
+        transform: rotatex(360deg) rotatey(360deg) rotatey(360deg);
+    }
 }
 @media(max-width:1200px){
     .proyectoImagen{
@@ -96,6 +110,9 @@ height: 108vh;
     .cajaImagenes{
         justify-content: space-around;
     }
+    .tituloProyectos{
+        font-size: 24px;
+    }
 
 }
 @media(max-width:600px){
@@ -113,6 +130,9 @@ height: 108vh;
     .proyectoImagen{
         width: 42%;
         height: 31%;
+    }
+    .menuProyecto{
+        padding: 6px 10px;
     }
 }
 

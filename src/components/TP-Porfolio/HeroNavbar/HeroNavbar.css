@@ -91,13 +91,8 @@ border-radius: 13px;
 .contenedorIconos{
     display: flex;
     justify-content: center;
-    
     margin-top: 10px;
-height: 17%;
-    
-    
-    
-    
+    height: 17%;
 }
 
 .lineas{
@@ -149,14 +144,19 @@ height: 17%;
 }
 } 
  @media(min-width:320px){
+    .imagContenedor{
+        height: 48vh;
+        justify-content: flex-end;
+    }
      .img{
-        width: 27%;
-        height: 48%;
+        width: 94px;
+        height: 94px;
 
      } 
      .lineas{
         width: 56%;
      }  
+     
      
      .iconos{
         align-items: center;
@@ -164,8 +164,8 @@ height: 17%;
         width: 100%;
      }
      .redes{
-        width: 23%;
-        height: 91%;
+        width: 40px;
+        height: 40px;
      }.iconoSiguiente{
         height: 15%;
      }
@@ -181,50 +181,56 @@ height: 17%;
     }
     @media(min-width:400px){
         .img{
-           width: 27%;
-        height: 63%;
+           width: 100px;
+        height: 100px;
    
    
         } 
         .lineas{
             width: 44%;
         }
-        .redes{
-            width: 21%;
-        }
+
+        
         .imagContenedor{
-            height: 37%;
+            height: 44vh;
         }
+        
+    }
+    .menuHorizontal{
+        height: 5%;
     }
     @media(min-width:500px){
         .img{
-           width: 23%;
-   height: 58%;
+            width: 100px;
+            height: 100px;
    
         } 
         .lineas{
             width: 42%;
         }
         .imagContenedor{
-            height: 40vh;
+            height: 44vh;
+        }
+        .contenedorIconos{
+            margin-top: 10px;
         }
 
     }
 
     @media(min-width:600px){
         .lineas{
-            width: 34%;
-            height: 57%;
+            width: 221px;
+            height: 95px;
         }
         .imagContenedor{
-            height: 40%;
+            height: 44%;
         }
         .img{
-            width: 19%;
-            height: 58%;
+            width: 100px;
+            height: 100px;
         }
         .contenedorIconos{
-            height: 29%;
+            height: 34vh;
         }
         .listasVerticales{
             margin: 10px;
@@ -233,8 +239,8 @@ height: 17%;
     }
     @media(min-width:700px){
 .img{
-    width: 16%;
-    height: 58%;
+    width: 107px;
+    height: 107px;
     
 }
 .lineas{
@@ -244,73 +250,66 @@ height: 17%;
 }
 @media(min-width:800px){
 .img{
- width: 15%;
+ width: 107px;
+ height: 107px;
 }
 .lineas{
     width: 30%;
-}
-.redes{
-    width: 18%;
 }
         
 }
             
 @media(min-width:900px){
 .img{
-     width: 13%;
+     width: 107px;
+     height: 107px;
 }
 .contenedorIconos{
  height: 29%;
 }
 .lineas{
     width: 26%;
-}.redes{
-    width: 18%;
 }
                 
 } 
 @media(min-width:1000px){
 .img{
- width: 12%;
+ width: 117px;
+ height: 117px;
 }
 .contenedorIconos{
 height: 29%;
 }
-.redes{
-    width: 17%;
-}
+
 
                         
 } 
 @media(min-width:1100px){
 .img{
- width: 11%;
+ width: 128px;
+ height: 128px;
  }
 .contenedorIconos{
 height: 29%;
 }
-.redes{
-    width: 16%;
-}
+
                                 
 } 
 @media(min-width:1200px){
 .img{
-width: 11%;
-height: 60%;
+width: 128px;
+height: 128px;
 }
 .contenedorIconos{
 height: 29%;
 }
-.redes{
-    width: 14%;
-}
+
                                         
 }                          
 @media(min-width:1300px){
     .img{
-    width: 142px;
-    height: 57%;
+    width: 128px;
+    height: 128px;
     }
     .contenedorIconos{
     height: 29%;
@@ -319,9 +318,8 @@ height: 29%;
         margin: 10px;
         font-size: 13px;
     }
-    .redes{
-        width: 13%;
-    }
+    
                                             
     }
+    
              

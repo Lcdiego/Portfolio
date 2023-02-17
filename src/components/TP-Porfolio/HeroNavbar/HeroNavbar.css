@@ -101,7 +101,7 @@ border-radius: 13px;
 
 .iconos{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     height: 47%;
     
     
@@ -153,6 +153,10 @@ border-radius: 13px;
         height: 94px;
 
      } 
+     .contenedorIconos{
+        align-items: self-start;
+        height: 21vh;
+     }
      .lineas{
         width: 56%;
      }  
@@ -194,10 +198,17 @@ border-radius: 13px;
         .imagContenedor{
             height: 44vh;
         }
-        
-    }
-    .menuHorizontal{
-        height: 5%;
+        .contenedorIconos{
+            height: 33vh;
+        }
+        .iconoSiguiente{
+            height: 22vh;
+        }
+        .menuHorizontal{
+            height: 5%;
+        }
+
+    
     }
     @media(min-width:500px){
         .img{
@@ -206,21 +217,22 @@ border-radius: 13px;
    
         } 
         .lineas{
-            width: 42%;
+            width: 37%;
         }
         .imagContenedor{
             height: 44vh;
         }
         .contenedorIconos{
             margin-top: 10px;
+            height: 33vh;
         }
 
     }
 
     @media(min-width:600px){
         .lineas{
-            width: 221px;
-            height: 95px;
+            width: 29%;
+            height: 81px;
         }
         .imagContenedor{
             height: 44%;
@@ -230,7 +242,7 @@ border-radius: 13px;
             height: 100px;
         }
         .contenedorIconos{
-            height: 34vh;
+            height: 33vh;
         }
         .listasVerticales{
             margin: 10px;
@@ -243,8 +255,14 @@ border-radius: 13px;
     height: 107px;
     
 }
+.imagContenedor{
+    height: 44%;
+}
 .lineas{
-    width:30% ;
+    width:28% ;
+}
+.contenedorIconos{
+    height: 33vh;
 }
 
 }
@@ -254,7 +272,7 @@ border-radius: 13px;
  height: 107px;
 }
 .lineas{
-    width: 30%;
+    width: 26%;
 }
         
 }
@@ -264,12 +282,16 @@ border-radius: 13px;
      width: 107px;
      height: 107px;
 }
-.contenedorIconos{
- height: 29%;
+.imagContenedor{
+    height: 36vh;
 }
+
 .lineas{
-    width: 26%;
+    width: 24%;
+}.iconoSiguiente{
+    height: 39vh;
 }
+
                 
 } 
 @media(min-width:1000px){
@@ -277,9 +299,10 @@ border-radius: 13px;
  width: 117px;
  height: 117px;
 }
-.contenedorIconos{
-height: 29%;
+.lineas{
+    width: 22%;
 }
+
 
 
                         
@@ -289,9 +312,6 @@ height: 29%;
  width: 128px;
  height: 128px;
  }
-.contenedorIconos{
-height: 29%;
-}
 
                                 
 } 
@@ -300,8 +320,8 @@ height: 29%;
 width: 128px;
 height: 128px;
 }
-.contenedorIconos{
-height: 29%;
+.lineas{
+    width: 21%;
 }
 
                                         
@@ -311,9 +331,7 @@ height: 29%;
     width: 128px;
     height: 128px;
     }
-    .contenedorIconos{
-    height: 29%;
-    }
+    
     .listasVerticales{
         margin: 10px;
         font-size: 13px;

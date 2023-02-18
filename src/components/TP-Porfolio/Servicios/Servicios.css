@@ -3,10 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-.servicios{
-    width: 100vw;
-    height: 90vh;
-}
 .titulo_Etiqueta{
     display: flex;
     justify-content: center;
@@ -18,22 +14,14 @@
     
     
 }
-.tituloEtiqueta{
-    color: white;
-    margin-bottom: 17px;
-}
-.parrafoEtiqueta{
-    color: white
-}
-
 .seccionServicios{
     width: 100vw;
     height: 72vh;
     background-color:rgb(29,32,35) ;
     display: flex;
     justify-content: center;
-    align-items: flex-start;
-    padding-top: 4%;
+    align-items: center;
+    
     
 
 }
@@ -51,6 +39,23 @@
     
     
 }
+.servicios{
+    width: 100vw;
+    height: 90vh;
+}
+
+.tituloEtiqueta{
+    color: white;
+    margin-bottom: 17px;
+}
+.parrafoEtiqueta{
+    color: white;
+    text-align: center;
+    
+}
+
+
+
 .contenedorEtiqueas:hover{
     transform: scale(1.15);
 }
@@ -65,23 +70,20 @@
         width: 300px;
         height: 253px;
     } 
-     .titulo_Etiqueta{
-        font-size:25px ;
-        height: 21%;
-        
-    }
+     
     .parrafoEtiqueta{
         font-size: 16px;
     }
-    .tituloEtiqueta{
-        margin-bottom: 17px;
-    }
+    
 
 }
 @media(max-width:1000px){
     .contenedorEtiqueas{
         width: 266px;
         height: 222px;
+    }
+    .titulo_Etiqueta{
+        font-size: 26px;
     }
 }
 @media(max-width:900px){
@@ -92,22 +94,22 @@
     .parrafoEtiqueta{
         font-size: 13px;
     }
-    .seccionServicios{
-        display: flex;
-        
-    }
+ 
+    
 }
 @media(max-width:800px){
     .contenedorEtiqueas{
         width: 226px;
-        height: 222px;
+        height: 197px;
     }
     .titulo_Etiqueta{
         height: 23%;
     }
     .seccionServicios{
-        height: 82vh;
+        height: 70vh;
+        
     }
+
 }
 @media(max-width:700px){
     .titulo_Etiqueta{
@@ -120,9 +122,8 @@
         right: 28px;
     }
     .seccionServicios{
-        height: 81vh;
-        display: flex;
-        align-items: flex-start;
+        height: 66vh;
+        
     }
     .contenedorEtiqueas{
         width: 251px;
@@ -140,8 +141,8 @@
     height: 28%;
 }
 .seccionServicios{
-padding-top: 4%;
-height: 81vh;
+    padding-top: 4%;
+    height: 65vh;
 }
 }
 @media(max-width:500px){

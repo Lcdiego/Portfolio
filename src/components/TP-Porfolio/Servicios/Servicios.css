@@ -36,6 +36,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    transition: 1s;
     
     
 }
@@ -58,6 +59,7 @@
 
 .contenedorEtiqueas:hover{
     transform: scale(1.15);
+    transition: 1s;
 }
 .iconoEtiquetas{
     font-size: 20px;

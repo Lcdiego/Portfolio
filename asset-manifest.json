@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/Trabajo_Practico_Portfolio/static/css/main.e1924907.css",
-    "main.js": "/Trabajo_Practico_Portfolio/static/js/main.dc169d7c.js",
-    "static/media/imagen_3.jpg": "/Trabajo_Practico_Portfolio/static/media/imagen_3.e45f70ab295964cd5d15.jpg",
+    "main.css": "/Trabajo_Practico_Portfolio/static/css/main.aa9115dc.css",
+    "main.js": "/Trabajo_Practico_Portfolio/static/js/main.6e1bfe3c.js",
+    "static/media/imagen_3.jpg": "/Trabajo_Practico_Portfolio/static/media/imagen_3.3292cce9af88ce467cb1.jpg",
     "static/media/imagen_1.jpg": "/Trabajo_Practico_Portfolio/static/media/imagen_1.a56b6a7110952280aa29.jpg",
-    "static/media/imagen_2.jpg": "/Trabajo_Practico_Portfolio/static/media/imagen_2.422a0f045ffc09a592c5.jpg",
+    "static/media/imagen_2.jpg": "/Trabajo_Practico_Portfolio/static/media/imagen_2.e42464b7bd9ba1b273ac.jpg",
     "static/media/imagen_6.jpg": "/Trabajo_Practico_Portfolio/static/media/imagen_6.c473b16d5fc36a87c350.jpg",
-    "static/media/imagen_5.jpg": "/Trabajo_Practico_Portfolio/static/media/imagen_5.fc0070afe6d02e8f9d29.jpg",
+    "static/media/imagen_5.jpg": "/Trabajo_Practico_Portfolio/static/media/imagen_5.baf67a5e02271d6a2371.jpg",
     "static/media/imagen_4.jpg": "/Trabajo_Practico_Portfolio/static/media/imagen_4.04a68cfb2c9c1cb1d209.jpg",
     "index.html": "/Trabajo_Practico_Portfolio/index.html",
-    "main.e1924907.css.map": "/Trabajo_Practico_Portfolio/static/css/main.e1924907.css.map",
-    "main.dc169d7c.js.map": "/Trabajo_Practico_Portfolio/static/js/main.dc169d7c.js.map"
+    "main.aa9115dc.css.map": "/Trabajo_Practico_Portfolio/static/css/main.aa9115dc.css.map",
+    "main.6e1bfe3c.js.map": "/Trabajo_Practico_Portfolio/static/js/main.6e1bfe3c.js.map"
   },
   "entrypoints": [
-    "static/css/main.e1924907.css",
-    "static/js/main.dc169d7c.js"
+    "static/css/main.aa9115dc.css",
+    "static/js/main.6e1bfe3c.js"
   ]
 }

@@ -5,13 +5,13 @@
 
 }
 .tituloFormulario{
-    margin-top: 10px;
+    margin-top: 10px;             /*mantengo los colores  originales tanto en el fondo de pantalla, titulo y los placeholder*/
     color:rgb(254,254,253) ;
 }
 
-.contenedorFormulario{
-    background-color:rgb(29,32,35) ;
-    width: 100vw;
+.contenedorFormulario{            /*mantengo el color original de fondo de los input y textarea */ 
+background-color:rgb(29,32,35) ;
+ width: 100vw;
 height: 100vh;
 display: flex;
 flex-direction: column;

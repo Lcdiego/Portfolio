@@ -19,12 +19,14 @@ const Proyecto = () => {
             </div>
                 <div className='Proyecto_futuros'>
                     <div className='cajaImagenes'>
+                        <div className='fotos1'>
                         <img className='proyectoImagen' src={img1} alt="" />
                         <img className='proyectoImagen'src={img2} alt="" />
                         <img className='proyectoImagen'src={img3} alt="" />
                         <img className='proyectoImagen'src={img4} alt="" />
                         <img className='proyectoImagen'src={img5} alt="" />
                         <img className='proyectoImagen'src={img6}alt="" />
+                        </div>
                     </div>
 
 

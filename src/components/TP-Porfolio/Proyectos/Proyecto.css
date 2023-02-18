@@ -6,7 +6,7 @@ box-sizing: border-box;
 .contenedorProyectos_futuros{
     text-align: center;
     width: 100vw;
-height: 108vh;
+height: 112vh;
     background-color:rgb(26,29,33) ;
 }
 .tituloProyectos{
@@ -38,24 +38,31 @@ height: 108vh;
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    height: 80%;
+    height: 77%;
     margin-top: 24px;
     
 }
 .cajaImagenes{
-    width: 88vw;
-    height: 76vh;
+    width: 100vw;
+    height: 83vh;
     display: flex;
     justify-content: center;
+    
+    
+    
+}
+.fotos1{
+    display: flex;
     flex-wrap: wrap;
-    
-    
+    align-items: center;
+    width:60%;
+    height: 100%;
 }
 
 
 .proyectoImagen{
-    width: 24%;
-    height: 46%;
+    width: 30%;
+    height: 34%;
     margin: 10px;
     animation: mover 40s;
     animation-iteration-count: infinite;
@@ -68,73 +75,63 @@ height: 108vh;
     }
 }
 @media(max-width:1200px){
-    .proyectoImagen{
-        width: 27%;
-    }
+    .fotos1{
+        width:63%;
+
+}
+
 }
 @media(max-width:1100px){
-.proyectoImagen{
-    width: 28%;
-}
+    .fotos1{
+        width:70%;
 
+    }
+}
+@media(max-width:1000px){
+    .fotos1{
+        width:78%;
+
+    }
 }
 @media(max-width:900px){
-    .contenedorProyectos_futuros{
-        height: 100vh;
-    }
-    .Proyecto_futuros{
-        height: 76%;
-    }
-    .cajaImagenes{
-        height: 68vh;
-    }
-   .proyectoImagen{ 
-    width: 29%;
+    .fotos1{
+        width:90%;
 
-}
+    }
 }
 @media(max-width:800px){
-    .proyectoImagen{
-        width: 30%;
-    }
+    .fotos1{
+        width:94%;
 
+    }
 }
 @media(max-width:700px){
-    .proyectoImagen{
-        width: 36%;
-        height: 32%;
-    }
-    .Proyecto_futuros{
-        height: 76%;
-    }
-    .cajaImagenes{
-        justify-content: space-around;
-    }
-    .tituloProyectos{
-        font-size: 24px;
-    }
+    .fotos1{
+        display: flex;
+        
 
-}
-@media(max-width:600px){
+    }
+}  
+@media(max-width:637px){
     .proyectoImagen{
         width: 40%;
-        height: 32%;
+    }
+    .fotos1{
+        height: 83%;
+        justify-content: center;
+
     }
 }
 @media(max-width:500px){
     .proyectoImagen{
-        width: 44%;
-        height: 32%;
+        width:42%;
+
     }
-}@media(max-width:400px){
+} 
+@media(max-width:400px){
     .proyectoImagen{
-        width: 42%;
-        height: 31%;
+        width:42%;
+        height:30%;
     }
-    .menuProyecto{
-        padding: 6px 10px;
-    }
-}
-
-
-
+}           
+      

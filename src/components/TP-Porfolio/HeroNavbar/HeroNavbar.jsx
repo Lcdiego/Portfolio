@@ -2,7 +2,6 @@
 import React from 'react';
 import './HeroNavbar.css';
 import imag from '../HeroNavbar/img/imagen_3.jpg'
-import imag1 from '../HeroNavbar/img/imagen_5.jpg'
 import { FaFacebookF,FaInstagramSquare,FaGithub,FaWhatsappSquare } from "react-icons/fa";
 import { IoIosMenu } from "react-icons/io";
 import { FiChevronDown } from "react-icons/fi";
@@ -47,7 +46,7 @@ const HeroNavbar = () => {
                     </div>
                 </div>
                     <div className='iconoSiguiente'>  
-                        <a  className='icono_siguiente' href="#"><FiChevronDown/></a>
+                        <a  className='icono_siguiente' href="#contenedorFoto"><FiChevronDown/></a>
                     </div>
                 
             </div>

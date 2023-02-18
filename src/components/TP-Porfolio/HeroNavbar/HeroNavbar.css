@@ -18,11 +18,10 @@ background-size: cover;
 
 }
 .menuHorizontal{
-    display: flex;
-    
-    align-items: flex-end;
+    display: flex;                    /* Se mantiene el estilo y la posicion de la hamburguesa*/
+    align-items: flex-end;           /*Al menu al desplazarlo a la derecha tengo que reducir el ancho para que la imaguen pricipal no se achique*/
     flex-direction: column;
-    height: 14%;
+    height: 14%;                     
 }
 .menu{
     color: white;

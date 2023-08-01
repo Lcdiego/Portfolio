@@ -34,8 +34,8 @@ background-size: cover;
 
 }
 .menuHorizontal{
-    display: flex;                    /* Se mantiene el estilo y la posicion de la hamburguesa*/
-    align-items: center;           /*Al menu al desplazarlo a la derecha tengo que reducir el ancho para que la imaguen pricipal no se achique*/
+    display: flex;                   
+    align-items: center;           
     justify-content:center ;
     height: 6%; 
     background-color: rgb(37,31,31);                    
@@ -151,24 +151,3 @@ background-size: cover;
     color: white;
     font-size: 48px;
 }
-/*.menuItems{
-    
-    display: none;
-    list-style: none;
-}
-.listasVerticales:hover{
-   background-color:  rgb(166,175,184,0.3);
-
-}
-.listasVerticales{
-list-style: none;
-margin: 33px;
-border-radius: 13px;
-
-
-}
-
- .menuHorizontal .listasVerticales:hover .menuItems{
-    display: block;
-}
-*/

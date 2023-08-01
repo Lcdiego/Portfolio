@@ -17,9 +17,9 @@
 }
 .contenedorImagen_caja{
     display: flex;
-    justify-content: flex-end;         /*para dar el efecto de marco a la imagen lo resolvi con un div con position relative.No recomendable */
+    justify-content: flex-end;        
     align-items: center;               
-    width: 44%;                        /* A su vez le imagen como el div estan adentro del contenedor imaguen_caja*/
+    width: 44%;                        
     height:100vh ;
 }
 

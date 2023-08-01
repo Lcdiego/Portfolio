@@ -90,22 +90,3 @@ textarea:hover{
     color: #212529
 }
 
-@media( max-width:900px){
-    .formulario{
-        width: 60%;
-    }
-}
-@media( max-width:500px){
-    .formulario{
-        width: 70%;
-    }
-}
-@media( max-width:400px){
-    .formulario{
-        width: 82%;
-    }
-    .tituloFormulario{
-        font-size: 24px;
-    }
-}
-

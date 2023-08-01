@@ -22,19 +22,21 @@
     justify-content: space-between;
     border-radius: 10px;
     color: white;
+    margin: 10px;
     
 }
 .tituloFooter{
     color:rgb(176,165,154);
     font-size: 13px;
     font-family: 'Pompiere', cursive;
+    margin: 20px;
 }
 .iconosFooter{
     display: flex;
     justify-content: center;
     align-items: center;
-    width:58px ;
-    height: 56px;
+    width:44px ;
+    height: 44px;
     border-radius: 91%;
     background-color:rgb(29,32,35) ;
     color: rgb(254,254,253);

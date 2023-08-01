@@ -1,9 +1,10 @@
 
 import React from 'react';
 import './HeroNavbar.css';
-import imag from '../HeroNavbar/img/imagen_3.jpg'
+
+
 import { FaFacebookF,FaInstagramSquare,FaGithub,FaWhatsappSquare } from "react-icons/fa";
-import { IoIosMenu } from "react-icons/io";
+
 import { FiChevronDown } from "react-icons/fi";
 
 const HeroNavbar = () => {
@@ -11,24 +12,25 @@ const HeroNavbar = () => {
         
         
             <div className='imagFondo' >
-            
-                    <ul className='menuHorizontal'>
-                       <li className='listasVerticales'><a  className='menu' href="#"><IoIosMenu/></a>
-                   
-                    <ul  className='menuItems' >
+             <header  className='menuHorizontal'>
+                    <div>
+                      
+                  
+                    <div  className='menuItems' >
                         
-                            <li className='listasVerticales' ><a className='listas'  href="#contenedorFoto">Sobre Mi</a> </li>
-                            <li className='listasVerticales' ><a className='listas'href="#contenedorSection">Mi Experiencia</a> </li>
-                            <li className='listasVerticales' ><a className='listas' href="#servicios">Servicios</a> </li>
-                            <li className='listasVerticales' ><a className='listas'href="#contenedorProyectos_futuros">Mi futuros trabajos</a> </li>
-                            <li className='listasVerticales' ><a className='listas' href="#formulario">Contacto</a> </li>
-                     </ul>
-                     </li> 
-                     </ul>
+                            <a className='listas' href="#servicios">Servicios</a> 
+                            <a className='listas'href="#contenedorProyectos_futuros">Futuros trabajos</a> 
+                            <a className='listas' href="#formulario">Contacto</a> 
+                            <a className='listas'href="#contenedorSection"> Tecnologicas</a> 
+                            <a className='listas'  href="#contenedorFoto">Sobre Mi</a>
+                     </div>
                      
+                     </div>
+                     </header>
                 <div className='imagContenedor'>
-              
-                        <img className='img' src={imag} alt="" /> 
+              <div className='img'>
+                         
+                        </div>
                         <h1 className='nombre'>Colman Diego</h1>
                         <h3 className='descripcion'>Full Stack Developer</h3>
                 </div>
@@ -48,8 +50,11 @@ const HeroNavbar = () => {
                     <div className='iconoSiguiente'>  
                         <a  className='icono_siguiente' href="#contenedorFoto"><FiChevronDown/></a>
                     </div>
-                
+
+               
             </div>
+
+            
             
           
         
@@ -57,3 +62,10 @@ const HeroNavbar = () => {
 }
 
 export default HeroNavbar
+/*<li className='listasVerticales'><a  className='menu' href="#"><IoIosMenu/></a></li> menu hamburgesa
+ import { IoIosMenu } from "react-icons/io";
+<li className='listasVerticales' ><a className='listas'  href="#contenedorFoto">Sobre Mi</a> </li>
+<li className='listasVerticales' ><a className='listas'href="#contenedorSection">Mi Experiencia</a> </li>
+<li className='listasVerticales' ><a className='listas' href="#servicios">Servicios</a> </li>
+<li className='listasVerticales' ><a className='listas'href="#contenedorProyectos_futuros">Mi futuros trabajos</a> </li>
+<li className='listasVerticales' ><a className='listas' href="#formulario">Contacto</a> </li>*/

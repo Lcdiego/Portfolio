@@ -1,8 +1,7 @@
 import React from 'react';
 import '../Servicios/Servicios.css'
 import {FaPencilAlt,FaCode  } from "react-icons/fa";
-import { GiScarabBeetle } from "react-icons/gi";
-
+import { DiMongodb} from "react-icons/di";
 const Servicios = () => {
     return(
         <div className='servicios'id='servicios'>
@@ -15,13 +14,13 @@ const Servicios = () => {
             </div>
             <div className='contenedorEtiqueas'>
                 <a className='iconoEtiquetas' href="#" ><FaCode/></a>
-                <h3 className='tituloEtiqueta'>Desarrollo frontal</h3>
-                <p className='parrafoEtiqueta'>Puedo convertir tus diseños o bocetos dentro del marco Front-end.  </p>
+                <h3 className='tituloEtiqueta'>Desarrollo Front end</h3>
+                <p className='parrafoEtiqueta'>Puedo convertir tus diseños o bocetos dentro del marco Front end.  </p>
             </div>
             <div className='contenedorEtiqueas'>
-                <a className='iconoEtiquetas' href="#" ><GiScarabBeetle/></a>
-                <h3 className='tituloEtiqueta'>Corrección de errores</h3>
-                <p className='parrafoEtiqueta'>Puedo resolver situaciones de emergencia y cualquier tipo de problemas que tengas en tu diseño.</p>
+                <a className='iconoEtiquetas' href="#" ><DiMongodb/></a>
+                <h3 className='tituloEtiqueta'>Desarrollo Back end</h3>
+                <p className='parrafoEtiqueta'>Puedo convertir tus diseños o bocetos dentro del marco Back end. </p>
             </div>
             
 

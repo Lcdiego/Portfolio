@@ -7,18 +7,21 @@ box-sizing: border-box;
     text-align: center;
     width: 100vw;
 height: 112vh;
-    background-color:rgb(26,29,33) ;
+background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
 }
 .tituloProyectos{
     color: white;
-    padding-top: 31px;
-    margin-bottom: 13px;
+    padding-top: 55px;
+    margin-bottom: 93px;
 }
 .menuProyecto{
     color: white;
+    margin: 20px 102px;
     padding: 6px 18px;
     border-radius: 40px;
+    background-color:#d5cdcd1f ;
     text-decoration: none;
+    width: 6%;
 
 }
 .menuProyecto:hover{
@@ -47,16 +50,27 @@ height: 112vh;
     width: 100vw;
     height: 83vh;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     
     
     
 }
+.imagen_foco{
+    
+        height: 81vh;
+        display: flex;
+        align-items: center;
+    }
+.proyecto_imagen{
+    width: 100%;
+    height: 60%;
+}
+
 .fotos1{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    width:60%;
+    width:92%;
     height: 100%;
 }
 
@@ -65,16 +79,11 @@ height: 112vh;
     width: 30%;
     height: 34%;
     margin: 10px;
-    animation: mover 40s;
-    animation-iteration-count: infinite;
+   
     cursor: pointer;
 }
 
-@keyframes mover{
-    50%{
-        transform: rotatex(360deg) rotatey(360deg) rotatey(360deg);
-    }
-}
+
 @media(max-width:1200px){
     .fotos1{
         width:63%;

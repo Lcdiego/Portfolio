@@ -27,7 +27,7 @@ header {
     
 width: 100vw;
 height: 100vh;
-background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.0)),
 url('./img/imagen_2.jpg') center center no-repeat;
 background-size: cover;
 
@@ -148,6 +148,8 @@ background-size: cover;
     align-items: flex-end;
 }
 .icono_siguiente{
+    display: flex;
+    justify-content: center;
     color: white;
     font-size: 48px;
 }

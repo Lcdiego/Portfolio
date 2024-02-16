@@ -45,3 +45,10 @@
 .iconosFooter:hover{
     background-color:rgb(166,175,184,0.3) ;
 }
+
+
+@media (min-width: 390px) and (max-width: 767px){
+   .Footer{
+    width: 48% ;
+   } 
+}

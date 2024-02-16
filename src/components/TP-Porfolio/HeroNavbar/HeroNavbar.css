@@ -133,7 +133,7 @@ background-size: cover;
     font-size: 26px;
     color:rgb(255,255,255);
     border-radius: 100%;
-    width: 6%;
+   margin-right: 20px;
     height: 87%;
      
 }
@@ -153,3 +153,47 @@ background-size: cover;
     color: white;
     font-size: 48px;
 }
+
+.hamburg{
+    color: antiquewhite;
+
+}
+
+/* En tu archivo CSS */
+.ancho-10 {
+    width: 123px;
+  }
+  .ancho-11 {
+    width: 140px;
+  }
+  
+  @media (min-width: 844px) and (max-width: 1023px){
+
+    .img{
+
+        width: 84px;
+        height: 84px;
+        border: 2px  solid black ;
+        border-top: 2px solid white;
+        border-bottom: 2px solid white;
+        border-radius: 50%;
+        background: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.1)),
+        url('./img/imagen_3.png') center center no-repeat;
+        background-size: cover;
+    }
+
+    .nombre{
+        color:rgb(248,248,248);
+        font-size: 30px;
+        font-family: 'Caveat', cursive;
+        text-transform: capitalize;
+        margin-top: 22px;
+    
+    }
+    
+.container{
+    margin-left: 0px;
+    margin-top: 23px;
+}
+
+  }

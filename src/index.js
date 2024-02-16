@@ -12,6 +12,7 @@ import { Todos } from './components/todos/todos';
 import { Recientes } from './components/recientes/recientes';
 
 
+
 const App = () => (
   <React.StrictMode>
     <HeroNavbar />

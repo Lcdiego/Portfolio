@@ -27,7 +27,17 @@
     color: white;
     font-family: 'Caveat', cursive;
     font-size: 40px;
+    margin-bottom: 3%;
 }
+
+.titulo_imagenes1{
+    color: white;
+    font-family: 'Caveat', cursive;
+    font-size: 40px;
+    margin: 3% 3%;
+}
+
+
 .sectionExperiencia{
     width: 29%;
     height: 84vh;
@@ -39,17 +49,17 @@
     .imagenes_tecnologias{
         
             display: flex;
-            width: 54%;
+          
             justify-content: space-around;
-            margin: 54px;
+          
         
     }
     .imagenes_tecnologias_1{
         
         display: flex;
-        width: 54%;
+       
         justify-content: space-around;
-        margin: 100px;
+        
     
 } 
 .seccion_imagen{

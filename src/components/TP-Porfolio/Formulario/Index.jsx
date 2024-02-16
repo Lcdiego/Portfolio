@@ -3,7 +3,7 @@ import '../Formulario/Style.css';
 const Formulario = () => {
     return(
         <div className='contenedorFormulario'id='formulario'>
-             <h1 className='tituloFormulario'>Contáctame</h1>
+             <h1 className='tituloFormulario'>Contáctate</h1>
             <form className='formulario' action="https://formsubmit.co/diegocolman78@hotmail.com" method="POST">
            
                 <label htmlFor="email"></label>

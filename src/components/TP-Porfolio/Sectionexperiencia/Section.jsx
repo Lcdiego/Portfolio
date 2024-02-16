@@ -24,7 +24,7 @@ const Section= () => {
          <img className='seccion_imagen' src={img_3} alt="" />
          <img className='seccion_imagen'src={img_4} alt="" />
          </div>
-         <h3  className='titulo_imagenes'>Back end</h3>
+         <h3  className='titulo_imagenes1'>Back end</h3>
         <div className='imagenes_tecnologias_1'>       
         
          <img className='seccion_imagen' src={img_5} alt="" />

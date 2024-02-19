@@ -178,10 +178,10 @@ textarea:hover {
 
 @media (min-width: 844px) and (max-width: 1023px) {
 
-    .contenedorFormulario{
+    .contenedorFormulario {
         height: 100vh;
     }
-   
+
 
     .formulario {
         width: 77%;

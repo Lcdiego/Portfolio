@@ -1,0 +1,8 @@
+.menuHorizontal {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 6%;
+    background-color: rgba(20, 18, 18, 0.849);
+}

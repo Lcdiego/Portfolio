@@ -262,6 +262,15 @@
      }
  }
 
+ @media (min-width: 1440px) and (max-width: 1756px){
+    .contenedorFoto {
+        height: 89vh;
+    }
+    .button{
+        margin-top: 21px;
+    }
+
+ }
  @media (min-width: 1757px) {
 
      .contenedorFoto {

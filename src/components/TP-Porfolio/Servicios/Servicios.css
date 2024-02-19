@@ -21,6 +21,7 @@
 
 .seccionServicios {
     width: 100vw;
+    height: 83vh;
     background-color: rgb(29, 32, 35);
     display: flex;
     flex-wrap: wrap;
@@ -33,7 +34,8 @@
 
 .contenedorEtiqueas {
     width: 419px;
-    background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.0)),
+    url('./img/imagen_11.jpg') center center no-repeat;
     border-radius: 10%;
     box-shadow: 0px 8px 5px 4px rgb(14, 15, 16);
     margin-left: 10px;

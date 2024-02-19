@@ -1,12 +1,12 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Caveat&family=EB+Garamond:ital@1&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-html{
+
+html {
     scroll-behavior: smooth;
 }
 
@@ -21,55 +21,54 @@ header {
     top: 0;
     width: 100%;
     z-index: 100;
-  }
+}
 
-.imagFondo{
-    
-width: 100vw;
-height: 100vh;
-background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.0)),
-url('./img/imagen_2.jpg') center center no-repeat;
-background-size: cover;
+.imagFondo {
+
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.0)),
+        url('./img/imagen_2.jpg') center center no-repeat;
+    background-size: cover;
 
 
 }
-.menuHorizontal{
-    display: flex;                   
-    align-items: center;           
-    justify-content:center ;
-    height: 6%; 
-    background-color: rgb(37,31,31);                    
-}
-.menu{
+
+
+
+.menu {
     color: white;
     font-size: 50px;
     display: flex;
-    justify-content:  flex-end;
-    
+    justify-content: flex-end;
+
 }
-.menuItems{
+
+.menuItems {
     width: 100vh;
     display: flex;
     justify-content: space-around;
-    
+
 
 }
-.listas{
+
+.listas {
     height: 28px;
     width: 159px;
     display: flex;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
     border-radius: 18px;
     text-decoration: none;
     color: white;
     font-size: 18px;
 }
-.listas:hover{
-    background-color:rgb(166,175,184,0.3) ;
+
+.listas:hover {
+    background-color: rgb(166, 175, 184, 0.3);
 }
 
-.imagContenedor{
+.imagContenedor {
     height: 56vh;
     display: flex;
     flex-direction: column;
@@ -77,84 +76,91 @@ background-size: cover;
     justify-content: center;
 }
 
-.img{
+.img {
 
     width: 180px;
     height: 180px;
-    border: 2px  solid black ;
+    border: 2px solid black;
     border-top: 2px solid white;
     border-bottom: 2px solid white;
     border-radius: 50%;
     background: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.1)),
-    url('./img/imagen_3.png') center center no-repeat;
+        url('./img/imagen_3.png') center center no-repeat;
     background-size: cover;
 }
 
-.nombre{
-    color:rgb(248,248,248);
+.nombre {
+    color: rgb(248, 248, 248);
     font-size: 35px;
     font-family: 'Caveat', cursive;
     text-transform: capitalize;
     margin-top: 32px;
 
 }
-.descripcion{
+
+.descripcion {
     font-family: 'Caveat', cursive;
-    color:rgb(248,248,248);
+    color: rgb(248, 248, 248);
     font-size: 30px;
     margin-top: 10px;
 }
-.contenedorIconos{
+
+.contenedorIconos {
     display: flex;
     justify-content: center;
     margin-top: 10px;
     height: 17%;
 }
 
-.lineas{
+.lineas {
     width: 41%;
     height: 69px;
 }
 
-.iconos{
+.iconos {
     display: flex;
     justify-content: space-around;
     align-items: center;
     height: 75%;
-    
-    
-    
+
+
+
 }
 
-.redes{
+
+.redes {
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 26px;
-    color:rgb(255,255,255);
-    border-radius: 100%;
-   margin-right: 20px;
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+    margin-right: 20px;
     height: 87%;
-     
+    width: 43px;
+
 }
-.redes:hover{
-    background-color:rgb(166,175,184,0.3) ;
+.redes :hover {
+    color: rgba(71, 72, 73, 0.808);
 }
+
+
 .iconoSiguiente {
-    
+
     height: 19%;
     display: flex;
     justify-content: center;
     align-items: flex-end;
 }
-.icono_siguiente{
+
+.icono_siguiente {
     display: flex;
     justify-content: center;
     color: white;
     font-size: 48px;
 }
 
-.hamburg{
+.hamburg {
     color: antiquewhite;
 
 }
@@ -162,38 +168,61 @@ background-size: cover;
 /* En tu archivo CSS */
 .ancho-10 {
     width: 123px;
-  }
-  .ancho-11 {
-    width: 140px;
-  }
-  
-  @media (min-width: 844px) and (max-width: 1023px){
+}
 
-    .img{
+.ancho-11 {
+    width: 140px;
+}
+
+@media (min-width: 844px) and (max-width: 1023px) {
+
+    .img {
 
         width: 84px;
         height: 84px;
-        border: 2px  solid black ;
+        border: 2px solid black;
         border-top: 2px solid white;
         border-bottom: 2px solid white;
         border-radius: 50%;
         background: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.1)),
-        url('./img/imagen_3.png') center center no-repeat;
+            url('./img/imagen_3.png') center center no-repeat;
         background-size: cover;
     }
 
-    .nombre{
-        color:rgb(248,248,248);
+    .nombre {
+        color: rgb(248, 248, 248);
         font-size: 30px;
         font-family: 'Caveat', cursive;
         text-transform: capitalize;
         margin-top: 22px;
-    
+
     }
-    
-.container{
-    margin-left: 0px;
-    margin-top: 23px;
+
+    .container {
+        margin-left: 0px;
+        margin-top: 23px;
+    }
+
 }
 
-  }
+@media (min-width: 900px) and (max-width:1000px) {
+
+    .imagFondo {
+        height: 56vh;
+    }
+
+    .imagContenedor {
+        height: 23vh;
+    }
+
+    .img {
+
+        width: 160px;
+        height: 160px;
+    }
+
+    .navbar-brand {
+        margin-top: 23px;
+    }
+
+}

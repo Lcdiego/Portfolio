@@ -13,7 +13,7 @@ import img_8 from './img/imagen_8.png'
 const Section = () => {
     return (
 
-        <div className='contenedorSection' id='contenedorSection'>
+        <div className='contenedorSection' id='tecnologias'>
             <div className='titulo_section'>
                 <h2>Experiencia tecnologicas</h2>
             </div>

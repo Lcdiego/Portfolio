@@ -4,11 +4,17 @@
     box-sizing: border-box;
 }
 
+body,
+html {
+    height: 100%;
+    margin: 0;
+}
+
 .contenedorProyectos_futuros {
     text-align: center;
     width: 100vw;
 
-    
+
     height: 100vh;
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.0)),
         url('./img/imagen_9.jpg') center center no-repeat;
@@ -17,9 +23,14 @@
 
 .tituloProyectos {
     color: white;
-    padding-top: 55px;
-    margin-bottom: 55px;
+
+    height: 16vh;
+    display: flex;
+    width: 28vw;
+    align-items: flex-end;
+    justify-content: center;
 }
+
 
 .contenedor-link {
     display: flex;
@@ -36,10 +47,10 @@
 
 .menuProyecto {
     color: white;
-width: 158px;
+    width: 158px;
     padding: 6px 12px;
     border-radius: 40px;
-    background-color: #d5cdcd1f;
+
     text-decoration: none;
     margin: 0px 8px;
 
@@ -52,7 +63,7 @@ width: 158px;
 }
 
 .contenedor-carrusel {
-    height: 40vw;
+    height: 79vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -79,7 +90,7 @@ width: 158px;
 .carousel-control-next-icon {
     display: flex;
     justify-content: center;
-  
+
     border-radius: 34px;
     height: 43px;
     width: 43px;
@@ -87,8 +98,8 @@ width: 158px;
 
 @media (min-width: 390px) and (max-width: 767px) {
 
-    .contenedorProyectos_futuros{
-        height: 97vh;
+    .contenedorProyectos_futuros {
+        height: 100vh;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
@@ -106,41 +117,57 @@ width: 158px;
         width: 85%;
         display: none;
     }
+
     .menuProyecto {
         color: white;
-    
+        width: 87vw;
+        height: 34px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      
+        margin: 9px;
+
         padding: 0px 6px;
         border-radius: 40px;
         background-color: #d5cdcd1f;
         text-decoration: none;
-        margin: 0px 3px;
-    
-    
+
+
+
     }
+
     .link {
         width: 100vw;
         display: flex;
-        justify-content: space-around;
-    
+        flex-direction: column;
+        align-items: center;
+
     }
 
     .tituloProyectos {
-        height: 20vw;
+        height: 33vw;
         display: flex;
         align-items: center;
         justify-content: center;
         color: white;
         padding-top: 0px;
         margin-bottom: 0px;
+        margin-left: 15px;
     }
 
     .carousel {
         width: 95vw;
+        height: 43vh;
         margin-right: -3px;
-        margin-top: 27px;
+        display: flex;
+        align-items: center;
+
+
 
     }
-    .proyectoImagen{
+
+    .proyectoImagen {
         height: 63vw;
     }
 
@@ -155,7 +182,7 @@ width: 158px;
     .carousel-control-next-icon {
         display: flex;
         justify-content: center;
-      
+
         border-radius: 34px;
         height: 0px;
         width: 0px;
@@ -164,81 +191,131 @@ width: 158px;
 
 }
 
-@media (min-width: 768px) and (max-width: 899px){
+@media (min-width: 768px) and (max-width: 899px) {
+    .contenedor-link{
+        height: 17vh;
+        align-items: flex-end;
+    }
 
-    .contenedorProyectos_futuros{
-        height: 80vh;
+    .contenedorProyectos_futuros {
+        height: 100vh;
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
     }
-    .carousel-control-next-icon, .carousel-control-prev-icon{
+    .contenedor-carrusel {
+      
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .carousel-control-next-icon,
+    .carousel-control-prev-icon {
         height: 30px;
         width: 30px;
     }
+
     .link {
         width: 100vw;
         display: flex;
         justify-content: space-around;
+
+    }.tituloProyectos{
     
+
+        height: 23vh;
+        display: flex;
+        width: 28vw;
+        align-items: flex-end;
+        justify-content: center;
+        font-size: 27px;
     }
 }
 
 
-@media (min-width: 844px) and (max-width: 1023px){
-.contenedorProyectos_futuros{
-    height: 100vh;
-}
-.tituloProyectos{
-    padding-top: 0px;
-    margin-bottom: 25px;
-    margin-top: 5px;
-}
-.link {
-    width: 100vw;
-    display: flex;
-    justify-content: space-around;
-
-}
-.imagen-foco {
-    width: 85%;
-    display: none;
-}
-.carousel-control-next-icon, .carousel-control-prev-icon{
-    height: 23px;
-    width: 23px;
-}
-
-}
-
-@media (min-width: 1024px) and (max-width: 1439px){
-    .contenedorProyectos_futuros{
+@media (min-width: 844px) and (max-width: 1023px) {
+    .contenedorProyectos_futuros {
         height: 100vh;
+        justify-content:space-evenly ;
     }
     .contenedor-carrusel{
+        height: 15vh;
+    }
+    .carousel{
+        width: 30vw;
+    }
+
+    .tituloProyectos {
+        padding-top: 0px;
+        margin-bottom: 0px;
+        margin-top: 5px;
+        font-size: 23px;
+    }
+
+    .link {
+        width: 89vw;
+        display: flex;
+        justify-content: space-around;
+
+    }
+
+    .imagen-foco {
+        width: 85%;
+        display: none;
+    }
+
+    .carousel-control-next-icon,
+    .carousel-control-prev-icon {
+        height: 23px;
+        width: 23px;
+    }
+    .contenedor-link{
+        height: 0vh;
+    }
+
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+    .contenedorProyectos_futuros {
+        height: 100vh;
+    }
+
+    .contenedor-carrusel {
         height: 59vh;
-       align-items: flex-end;
+        align-items: flex-end;
     }
 }
 
-@media (min-width: 1440px) and (max-width: 1756px){
-  .contenedorProyectos_futuros{
-    height: 100vh;
-  }
-  .tituloProyectos{
-    padding-top: 168px;
-  }
-  .contenedor-carrusel{
-    height: 70vh;
-  }
+@media (min-width: 1440px) and (max-width: 1756px) {
+    .contenedorProyectos_futuros {
+        height: 100vh;
+    }
 
- }
+    .tituloProyectos {
+        padding-top: 168px;
+    }
 
- @media (min-width: 900px) and (max-width: 1000px){
-    .contenedorProyectos_futuros{
-        height: 61vh;
+    .contenedor-carrusel {
+        height: 70vh;
+    }
+
+}
+
+@media (min-width: 900px) and (max-width: 1000px) {
+    .contenedorProyectos_futuros {
+        height: 100vh;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
     }
- }
+    .carousel{
+        width: 97vw;
+    }
+    .tituloProyectos{
+        height: 0vh;
+    }
+    .menuProyecto{
+        font-size: 30px;
+    }
+}

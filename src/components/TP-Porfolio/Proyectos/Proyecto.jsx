@@ -75,7 +75,7 @@ const Proyecto = () => {
     }
 
     return (
-        <div className='contenedorProyectos_futuros' id='contenedorProyectos_futuros'>
+        <div className='contenedorProyectos_futuros' id='proyectos'>
             <h1 className='tituloProyectos'>Proyectos</h1>
             <div className='contenedor-link'>
                 <div className='link'>

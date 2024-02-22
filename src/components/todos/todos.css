@@ -13,7 +13,7 @@
 
 .titulo-todos {
     color: white;
-    margin-top: 36px;
+    margin-top: 80px;
     width: 89vw;
     height: 10vh;
 
@@ -41,7 +41,7 @@
     display: flex;
     justify-content: center;
     text-decoration: none;
-    margin-top: 114px;
+    margin-top: 49px;
     min-width: 130px;
     height: 40px;
     color: #fff;
@@ -59,4 +59,62 @@
 
 .btn-todos:hover{
     background-color: transparent;
+}
+
+@media (min-width: 390px) and (max-width: 767px){
+    .contenedor-pag-todos{
+        justify-content: center;
+    }
+    .pag-todos{
+        width: 92vw;
+       
+    }
+    .imagen-todos{
+        width: 40vw;
+
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 899px){
+    .pag-todos{
+        height: 67vh;
+        
+    }
+    .imagen-todos{
+        width: 29vw;
+    }
+    .contenedor-pag-todos{
+        align-items: center;
+    }
+
+}
+
+@media (min-width: 844px) and (max-width: 1023px){
+    .titulo-todos{
+        margin-top: 100px;
+        margin-bottom: 30px;
+    }
+    .contenedor-pag-todos{
+        height: 100vw;
+    }
+    .pag-todos{
+        height: 155vh;
+    }
+    .btn-todos{
+      margin-top: 15px;
+    }
+}
+
+@media (min-width: 900px) and (max-width: 1000px){
+    .contenedor-pag-todos{
+        height: 100vh;
+    }
+    .pag-todos{
+        width: 85vw;
+        height: 67vh;
+    }
+    .imagen-todos{
+        width: 39vw;
+    }
 }

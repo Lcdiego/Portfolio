@@ -18,25 +18,25 @@ const anclas = [
 const Recientes = () => {
   return (
     
-    <div className='contenedor-pag-todos'>
+    <div className='contenedor-pag-recientes'>
         <div>
-            <h2 className='titulo-todos'>Proyectos Recientes</h2>
+            <h2 className='titulo-recientes'>Proyectos Recientes</h2>
         </div>
-      <div className='pag-todos'>
+      <div className='pag-recientes'>
         {imagenes.map((imagen, index) => (
           <a
             key={index}  
-            className='ancla-todos'
+            className='ancla-recientes'
             href={anclas[index]}  
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img className="imagen-todos" src={imagen} alt='' />
+            <img className="imagen-recientes" src={imagen} alt='' />
           </a>
         ))}
       </div>
     <div>
-    <Link className='btn-todos' to={"/Proyecto"}>
+    <Link className='btn-recientes' to={"/Proyectos"}>
       volver
       </Link>
     </div>

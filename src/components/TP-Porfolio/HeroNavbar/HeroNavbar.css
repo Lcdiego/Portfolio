@@ -22,6 +22,9 @@ header {
     width: 100%;
     z-index: 100;
 }
+hr{
+    color: white;
+}
 
 .imagFondo {
 
@@ -73,7 +76,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
 }
 
 .img {
@@ -138,8 +141,11 @@ header {
     margin-right: 20px;
     height: 87%;
     width: 43px;
+    background: transparent;
+    border: none;
 
 }
+
 .redes :hover {
     color: rgba(71, 72, 73, 0.808);
 }
@@ -160,10 +166,7 @@ header {
     font-size: 48px;
 }
 
-.hamburg {
-    color: antiquewhite;
 
-}
 
 /* En tu archivo CSS */
 .ancho-10 {
@@ -172,6 +175,23 @@ header {
 
 .ancho-11 {
     width: 140px;
+}
+@media (min-width: 390px) and (max-width: 767px){
+    .imagFondo{
+        height: 100vh;
+    }
+    .lineas{
+        width: 91%;
+    }
+    .contenedorIconos{
+        height: 14%;
+        align-items: center;
+    }
+}
+@media (min-width: 768px) and (max-width: 899px){
+    .imagFondo{
+        height: 100vh;
+    }
 }
 
 @media (min-width: 844px) and (max-width: 1023px) {
@@ -187,6 +207,10 @@ header {
         background: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.1)),
             url('./img/imagen_3.png') center center no-repeat;
         background-size: cover;
+        
+    }
+    .imagFondo{
+        padding-top: 10%;
     }
 
     .nombre {
@@ -201,6 +225,12 @@ header {
     .container {
         margin-left: 0px;
         margin-top: 23px;
+    } 
+    hr{
+        margin: 0px;
+    }
+    .lineas{
+        width: 57%;
     }
 
 }

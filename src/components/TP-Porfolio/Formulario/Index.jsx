@@ -2,7 +2,7 @@ import React from 'react';
 import '../Formulario/Style.css';
 const Formulario = () => {
     return(
-        <div className='contenedorFormulario'id='formulario'>
+        <div className='contenedorFormulario'id='contacto'>
              <h1 className='tituloFormulario'>Contáctate</h1>
             <form className='formulario' action="https://formsubmit.co/diegocolman78@hotmail.com" method="POST">
            

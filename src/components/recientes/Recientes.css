@@ -1,4 +1,4 @@
-.contenedor-pag-todos {
+.contenedor-pag-recientes {
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.0)),
         url('./img/imagen_9.jpg') center center no-repeat;
     background-size: cover;
@@ -11,17 +11,17 @@
 
 }
 
-.titulo-todos {
+.titulo-recientes {
     color: white;
-    margin-top: 36px;
+    margin-top: 89px;
     width: 89vw;
     height: 10vh;
 
 }
 
-.pag-todos {
+.pag-recientes {
     width: 65vw;
-
+    height: 54vh;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -29,18 +29,18 @@
     border: solid rgb(146, 210, 247) 1px;
 }
 
-.imagen-todos {
+.imagen-recientes {
     width: 18vw;
     margin: 10px;
     border: solid rgb(175, 181, 184) 1px;
     border-radius: 20px;
 }
 
-.btn-todos {
+.btn-recientes {
     display: flex;
     justify-content: center;
     text-decoration: none;
-    margin-top: 114px;
+    margin-top: 71px;
     min-width: 130px;
     height: 40px;
     color: #fff;
@@ -56,6 +56,58 @@
     background: #1e47e34f;
 }
 
-.btn-todos:hover{
+.btn-recientes:hover {
     background-color: transparent;
+}
+
+
+@media (min-width: 390px) and (max-width: 767px){
+    .imagen-recientes{
+        width: 59vw;
+    }
+}
+@media (min-width: 768px) and (max-width: 899px){
+    .imagen-recientes{
+        width: 50vw;
+    }
+    .pag-recientes{
+        height: 69vh;
+    }
+}
+
+@media (min-width: 844px) and (max-width: 1023px){
+    .contenedor-pag-recientes{
+        height: 214vh;
+    }
+    .pag-recientes{
+        height: 160vh;
+    }
+    .imagen-recientes{
+        width: 43vw;
+    }
+    .btn-recientes{
+        margin-top: 12px;
+        margin-bottom: 12px;
+    }
+    .titulo-recientes{
+        font-size: 20px;
+    }
+    .btn-recientes{
+        min-width: 108px;
+    }
+}
+
+@media (min-width: 900px) and (max-width: 1000px){
+    .imagen-recientes{
+        width: 50vw;
+    }
+    .pag-recientes{
+        height: 70vh;
+    }
+    
+}
+@media (min-width: 1440px) and (max-width: 1756px){
+    .imagen-recientes{
+        width: 30vw;
+    }
 }

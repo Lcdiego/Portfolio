@@ -49,6 +49,24 @@
 
 @media (min-width: 390px) and (max-width: 767px){
    .Footer{
-    width: 48% ;
+    width: 75% ;
    } 
+   .contenedorFooter{
+    height: 26vw;
+    justify-content: flex-start;
+   }
+   .tituloFooter{
+
+    margin: 2px;
+   }
+}
+@media (min-width: 844px) and (max-width: 1023px){
+
+    .Footer{
+        width: 52%;
+    }
+    .tituloFooter{
+        margin: 4px;
+    }
+    
 }

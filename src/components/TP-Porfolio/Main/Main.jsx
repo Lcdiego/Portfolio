@@ -12,7 +12,7 @@ const Main= () => {
     return(
 
         
-         <div className='contenedorFoto'id='contenedorFoto'> 
+         <div className='contenedorFoto'id='main'> 
                
                 
                 

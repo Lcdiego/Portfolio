@@ -23,7 +23,7 @@ const anclas = [
 const Todos = () => {
   return (
     
-    <div className='contenedor-pag-todos'>
+    <div className='contenedor-pag-todos'id='todos'>
         <div>
             <h3 className='titulo-todos'>Todos mis Proyectos</h3>
         </div>
@@ -42,7 +42,7 @@ const Todos = () => {
         ))}
       </div>
     <div>
-    <Link className='btn-todos' to={"/Proyecto"}>
+    <Link className='btn-todos' to={"/Proyectos"}>
       volver
       </Link>
     </div>

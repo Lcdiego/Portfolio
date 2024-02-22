@@ -29,7 +29,7 @@ const Proyecto = () => {
                         </a>
                     </Carousel.Item>
                     <Carousel.Item>
-                        <a className='ancla-todos' href="https://api-rick-and-morty-7wvgp9ol7-diegocolman14-gmailcom.vercel.app/" target="_blank" rel="noopener noreferrer">
+                        <a className='ancla-todos' href="https://api-rick-and-morty-hjobf54oo-diegocolman14-gmailcom.vercel.app/" target="_blank" rel="noopener noreferrer">
                             <img className='proyectoImagen' src={img3} alt="" />
                         </a>
                     </Carousel.Item>
@@ -58,7 +58,7 @@ const Proyecto = () => {
         } else if (opcionSeleccionada === 'Recientes') {
             return (
                 <div className='fotos1'>
-                    <a href="https://api-rick-and-morty-7wvgp9ol7-diegocolman14-gmailcom.vercel.app/" target="_blank" rel="noopener noreferrer">
+                    <a href="https://api-rick-and-morty-hjobf54oo-diegocolman14-gmailcom.vercel.app/" target="_blank" rel="noopener noreferrer">
                         <img className='proyectoImagen' src={img3} alt="" />
                     </a>
                 </div>
@@ -66,7 +66,7 @@ const Proyecto = () => {
         }else if (opcionSeleccionada === 'Diseño') {
             return (
                 <div className='fotos1'>
-                    <a href="https://api-rick-and-morty-7wvgp9ol7-diegocolman14-gmailcom.vercel.app/" target="_blank" rel="noopener noreferrer">
+                    <a href="https://api-rick-and-morty-hjobf54oo-diegocolman14-gmailcom.vercel.app/" target="_blank" rel="noopener noreferrer">
                         <img className='proyectoImagen' src={img3} alt="" />
                     </a>
                 </div>

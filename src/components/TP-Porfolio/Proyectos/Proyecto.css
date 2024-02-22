@@ -235,6 +235,7 @@ html {
 
 
 @media (min-width: 844px) and (max-width: 1023px) {
+    
     .contenedorProyectos_futuros {
         height: 100vh;
         justify-content:space-evenly ;

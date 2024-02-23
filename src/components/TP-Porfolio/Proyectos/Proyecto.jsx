@@ -49,7 +49,7 @@ const Proyecto = () => {
                         </a>
                     </Carousel.Item>
                     <Carousel.Item>
-                        <a className='ancla-todos' href="https://espacio-holistico-r3iur1lin-diegocolman14-gmailcom.vercel.app/" target="_blank" rel="noopener noreferrer">
+                        <a className='ancla-todos' href="https://espacio-holistico-nlce-fzxcc48cy-diegocolman14-gmailcom.vercel.app/" target="_blank" rel="noopener noreferrer">
                             <img className='proyectoImagen' src={img7} alt="" />
                         </a>
                     </Carousel.Item>

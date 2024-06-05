@@ -4,15 +4,16 @@ import { Link } from 'react-router-dom';
 import img1 from './img/imagen_1.png';
 import img5 from './img/imagen_5.png';
 import img6 from './img/imagen_6.png';
+import img10 from './img/imagen_10.png';
 
 
-const imagenes = [img1,img5,img6];
+const imagenes = [img1,img5,img6,img10];
 const anclas = [
   'https://proyecto-jardin-de-infantes.vercel.app/',
   
   'https://proyecto-inmobiliario.vercel.app/',
   'https://tp-2.onrender.com',
-
+  ' https://banco-saint-patrick-omega.vercel.app/'
 ];
 
 const Recientes = () => {

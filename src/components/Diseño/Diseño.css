@@ -1,0 +1,113 @@
+.contenedor-pag-diseño {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.0)),
+        url('./img/imagen_9.jpg') center center no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.titulo-diseño {
+    color: white;
+    margin-top: 89px;
+    width: 89vw;
+    height: 10vh;
+
+}
+
+.pag-diseño {
+    width: 65vw;
+    height: 54vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 20px;
+    border: solid rgb(146, 210, 247) 1px;
+}
+
+.imagen-diseño {
+    width: 31vw;
+    margin: 10px;
+    border: solid rgb(175, 181, 184) 1px;
+    border-radius: 20px;
+}
+
+.btn-diseño {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    margin-top: 71px;
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+
+    outline: none;
+    border-radius: 20px;
+    border: 2px solid #212529;
+    background: #1e47e34f;
+}
+
+.btn-diseño:hover {
+    background-color: transparent;
+}
+
+
+@media (min-width: 390px) and (max-width: 767px){
+    .imagen-diseño{
+        width: 59vw;
+    }
+}
+@media (min-width: 768px) and (max-width: 899px){
+    .imagen-diseño{
+        width: 50vw;
+    }
+    .pag-diseño{
+        height: 69vh;
+    }
+}
+
+@media (min-width: 844px) and (max-width: 1023px){
+    .contenedor-pag-diseño{
+        height: 214vh;
+    }
+    .pag-diseño{
+        height: 160vh;
+    }
+    .imagen-diseño{
+        width: 43vw;
+    }
+    .btn-diseño{
+        margin-top: 12px;
+        margin-bottom: 12px;
+    }
+    .titulo-diseño{
+        font-size: 20px;
+    }
+    .btn-diseño{
+        min-width: 108px;
+    }
+}
+
+@media (min-width: 900px) and (max-width: 1000px){
+    .imagen-diseño{
+        width: 50vw;
+    }
+    .pag-diseño{
+        height: 70vh;
+    }
+    
+}
+@media (min-width: 1440px) and (max-width: 1756px){
+    .imagen-diseño{
+        width: 30vw;
+    }
+}

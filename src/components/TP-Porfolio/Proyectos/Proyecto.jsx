@@ -8,6 +8,7 @@ import img4 from './img/imagen_4.png';
 import img5 from './img/imagen_5.png';
 import img6 from './img/imagen_6.png';
 import img7 from './img/imagen_7.png';
+import img10 from './img/imagen_10.png';
 import img from '../HeroNavbar/img/imagen_5.png';
 import { Carousel } from 'react-bootstrap';
 
@@ -39,7 +40,7 @@ const Proyecto = () => {
                         </a>
                     </Carousel.Item>
                     <Carousel.Item>
-                        <a className='ancla-todos' href="https://proyecto-inmobiliario.vercel.app/" target="_blank" rel="noopener noreferrer">
+                        <a className='ancla-todos' href="https://proyecto-mercado-inmobiliario-or05tw7ic-diegocolman14-gmailcom.vercel.app" target="_blank" rel="noopener noreferrer">
                             <img className='proyectoImagen' src={img5} alt="" />
                         </a>
                     </Carousel.Item>
@@ -51,6 +52,11 @@ const Proyecto = () => {
                     <Carousel.Item>
                         <a className='ancla-todos' href="https://espacio-holistico-nlce-fzxcc48cy-diegocolman14-gmailcom.vercel.app/" target="_blank" rel="noopener noreferrer">
                             <img className='proyectoImagen' src={img7} alt="" />
+                        </a>
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <a className='ancla-todos' href="https://banco-saint-patrick-omega.vercel.app/" target="_blank" rel="noopener noreferrer">
+                            <img className='proyectoImagen' src={img10} alt="" />
                         </a>
                     </Carousel.Item>
                 </Carousel>

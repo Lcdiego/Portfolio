@@ -7,8 +7,8 @@ import img3 from './img/imagen_3.png';
 import img4 from './img/imagen_4.png';
 import img5 from './img/imagen_5.png';
 import img6 from './img/imagen_6.png';
-import img7 from './img/imagen_7.png';
-import img10 from './img/imagen_10.png';
+import img7 from './img/Pizzeria.png';
+import img10 from './img/banco.png';
 import img from '../HeroNavbar/img/imagen_5.png';
 import { Carousel } from 'react-bootstrap';
 
@@ -20,10 +20,31 @@ const Proyecto = () => {
             return (
                 <Carousel>
                     <Carousel.Item>
+                        <a className='ancla-todos' href="https://pizzeria-khaki.vercel.app/" target="_blank" rel="noopener noreferrer">
+                            <img className='proyectoImagen' src={img7} alt="" />
+                        </a>
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <a className='ancla-todos' href="https://tp-2.onrender.com" target="_blank" rel="noopener noreferrer">
+                            <img className='proyectoImagen' src={img6} alt="" />
+                        </a>
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <a className='ancla-todos' href="https://banco-saint-patrick-omega.vercel.app/" target="_blank" rel="noopener noreferrer">
+                            <img className='proyectoImagen' src={img10} alt="" />
+                        </a>
+                    </Carousel.Item>
+                    <Carousel.Item>
                         <a className='ancla-todos' href="https://proyecto-jardin-de-infantes.vercel.app/" target="_blank" rel="noopener noreferrer">
                             <img className='proyectoImagen' src={img1} alt="" />
                         </a>
                     </Carousel.Item>
+                    <Carousel.Item>
+                        <a className='ancla-todos' href="https://proyecto-mercado-inmobiliario-or05tw7ic-diegocolman14-gmailcom.vercel.app" target="_blank" rel="noopener noreferrer">
+                            <img className='proyectoImagen' src={img5} alt="" />
+                        </a>
+                    </Carousel.Item>
+                 
                     <Carousel.Item>
                         <a className='ancla-todos' href="https://tp-billetera.vercel.app/" target="_blank" rel="noopener noreferrer">
                             <img className='proyectoImagen' src={img2} alt="" />
@@ -39,26 +60,8 @@ const Proyecto = () => {
                             <img className='proyectoImagen' src={img4} alt="" />
                         </a>
                     </Carousel.Item>
-                    <Carousel.Item>
-                        <a className='ancla-todos' href="https://proyecto-mercado-inmobiliario-or05tw7ic-diegocolman14-gmailcom.vercel.app" target="_blank" rel="noopener noreferrer">
-                            <img className='proyectoImagen' src={img5} alt="" />
-                        </a>
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <a className='ancla-todos' href="https://tp-2.onrender.com" target="_blank" rel="noopener noreferrer">
-                            <img className='proyectoImagen' src={img6} alt="" />
-                        </a>
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <a className='ancla-todos' href="https://espacio-holistico-nlce-fzxcc48cy-diegocolman14-gmailcom.vercel.app/" target="_blank" rel="noopener noreferrer">
-                            <img className='proyectoImagen' src={img7} alt="" />
-                        </a>
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <a className='ancla-todos' href="https://banco-saint-patrick-omega.vercel.app/" target="_blank" rel="noopener noreferrer">
-                            <img className='proyectoImagen' src={img10} alt="" />
-                        </a>
-                    </Carousel.Item>
+                  
+
                 </Carousel>
             );
         } else if (opcionSeleccionada === 'Recientes') {
@@ -69,7 +72,7 @@ const Proyecto = () => {
                     </a>
                 </div>
             );
-        }else if (opcionSeleccionada === 'Diseño') {
+        } else if (opcionSeleccionada === 'Diseño') {
             return (
                 <div className='fotos1'>
                     <a href="https://api-rick-and-morty-hjobf54oo-diegocolman14-gmailcom.vercel.app/" target="_blank" rel="noopener noreferrer">
@@ -86,19 +89,19 @@ const Proyecto = () => {
             <div className='contenedor-link'>
                 <div className='link'>
                     <div>
-                    <Link to="/todos" className='menuProyecto'>Todos</Link>
+                        <Link to="/todos" className='menuProyecto'>Todos</Link>
                     </div>
-                   <div>
-                   <Link to="/recientes" className='menuProyecto'>Recientes</Link>
-                   </div>
-                   <div>
-                   <Link to="/Diseño" className='menuProyecto'>Diseñando</Link>
-                   </div>
-                
-                   <div>
-                   <Link to="/ProyectosFuturos" className='menuProyecto'> Proyectos Futuros</Link>
-                   </div>
-                   
+                    <div>
+                        <Link to="/recientes" className='menuProyecto'>Recientes</Link>
+                    </div>
+                    <div>
+                        <Link to="/Diseño" className='menuProyecto'>Diseñando</Link>
+                    </div>
+
+                    <div>
+                        <Link to="/ProyectosFuturos" className='menuProyecto'> Proyectos Futuros</Link>
+                    </div>
+
                 </div>
 
             </div>

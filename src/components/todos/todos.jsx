@@ -7,8 +7,8 @@ import img3 from './img/imagen_3.png';
 import img4 from './img/imagen_4.png';
 import img5 from './img/imagen_5.png';
 import img6 from './img/imagen_6.png';
-import img7 from './img/imagen_7.png';
-import img10 from './img/imagen_10.png';
+import img7 from './img/Pizzeria.png';
+import img10 from './img/banco.png';
 
 const imagenes = [img1, img2, img3, img4, img5, img6, img7, img10];
 const anclas = [
@@ -18,7 +18,7 @@ const anclas = [
   'https://to-do-list-2dn9.onrender.com/',
   'https://proyecto-inmobiliario.vercel.app/',
   'https://tp-2.onrender.com',
-  'https://espacio-holistico-r3iur1lin-diegocolman14-gmailcom.vercel.app/',
+  'https://pizzeria-khaki.vercel.app/',
   ' https://banco-saint-patrick-omega.vercel.app/'
 ];
 

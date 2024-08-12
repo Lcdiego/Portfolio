@@ -26,23 +26,27 @@ const Todos = () => {
   return (
 
     <div className='contenedor-pag-todos' id='todos'>
-      <div>
+      <div className='contenedor-titulo-todos'>
         <h3 className='titulo-todos'>Todos mis Proyectos</h3>
       </div>
-
       <div className='pag-todos'>
         {imagenes.map((imagen, index) => (
-          <a
-            key={index}
-            className='ancla-todos'
-            href={anclas[index]}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img className="imagen-todos" src={imagen} alt='' />
-          </a>
+
+          <div key={index} className='contenedor-img-todos'>
+            <a
+              className='ancla-todos'
+              href={anclas[index]}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img className="imagen-todos" src={imagen} alt='' />
+            </a>
+          </div>
+
+
         ))}
       </div>
+     
       <div>
         <Link className='btn-todos' to={"/Proyectos"}>
           volver

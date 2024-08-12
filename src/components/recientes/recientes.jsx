@@ -7,7 +7,7 @@ import img6 from './img/Pizzeria.png';
 import img10 from './img/imagen_10.png';
 
 
-const imagenes = [img1,img5,img6,img10];
+const imagenes = [img1, img5, img6, img10];
 const anclas = [
   'https://proyecto-jardin-de-infantes.vercel.app/',
   'https://proyecto-inmobiliario.vercel.app/',
@@ -17,30 +17,34 @@ const anclas = [
 
 const Recientes = () => {
   return (
-    
+
     <div className='contenedor-pag-recientes'>
-        <div>
-            <h2 className='titulo-recientes'>Proyectos Recientes</h2>
-        </div>
+      <div className='contenedor-titulo-recientes'>
+        <h2 className='titulo-recientes'>Proyectos Recientes</h2>
+      </div>
       <div className='pag-recientes'>
         {imagenes.map((imagen, index) => (
-          <a
-            key={index}  
-            className='ancla-recientes'
-            href={anclas[index]}  
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img className="imagen-recientes" src={imagen} alt='' />
-          </a>
+
+          <div key={index} className='contenedor-img-recientes'>
+            <a
+              className='ancla-recientes'
+              href={anclas[index]}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img className="imagen-recientes" src={imagen} alt='' />
+            </a>
+          </div>
+
+
         ))}
       </div>
-    <div>
-    <Link className='btn-recientes' to={"/Proyectos"}>
-      volver
-      </Link>
-    </div>
-     
+      <div>
+        <Link className='btn-recientes' to={"/Proyectos"}>
+          volver
+        </Link>
+      </div>
+
     </div>
   );
 }

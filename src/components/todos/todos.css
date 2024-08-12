@@ -6,42 +6,53 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    width: 100vw;
-    height: 100vh;
 
+
+}
+
+.contenedor-titulo-todos {
+    width: 50%;
 }
 
 .titulo-todos {
     color: white;
     margin-top: 80px;
-    width: 89vw;
     height: 10vh;
 
 }
 
 
 .pag-todos {
-    width: 65vw;
-
+    width: 70vw;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    border-radius: 20px;
+    justify-content: space-around;
+    border-radius: 5px;
     border: solid rgb(146, 210, 247) 1px;
 }
 
+.contenedor-img-todos {
+    width: 100%;
+    height: 27vh;
+
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
 .imagen-todos {
-    width: 18vw;
-    margin: 10px;
+    width: 100%;
+    height: 100%;
     border: solid rgb(175, 181, 184) 1px;
-    border-radius: 20px;
+    border-radius: 5px;
 }
 
 .btn-todos {
     display: flex;
     justify-content: center;
     text-decoration: none;
-    margin-top: 49px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     min-width: 130px;
     height: 40px;
     color: #fff;
@@ -57,64 +68,155 @@
     background: #1e47e34f;
 }
 
-.btn-todos:hover{
+.btn-todos:hover {
     background-color: transparent;
 }
 
-@media (min-width: 390px) and (max-width: 767px){
-    .contenedor-pag-todos{
+@media (min-width: 320px) {
+    .contenedor-pag-todos {
         justify-content: center;
+        width: 100%;
     }
-    .pag-todos{
-        width: 92vw;
-       
+
+    .titulo-todos {
+        display: flex;
+        align-items: center;
+        font-size: 18px;
+        height: 5vh;
+
+
     }
-    .imagen-todos{
-        width: 40vw;
+
+    .contenedor-titulo-todos {
+        width: 100vw;
+        margin-left: 20px;
+        display: flex;
+        align-items: center;
+
+    }
+
+    .contenedor-img-todos {
+        width: 90vw;
+        height: 29vh;
+        margin-bottom: 10px;
+        margin-top: 20px;
+    }
+
+    .pag-todos {
+        width: 95vw;
+        padding: 10px;
+
+    }
+
+
+
+}
+
+@media (min-width: 640px) {
+    .contenedor-img-todos {
+        width: 70vw;
+
+    }
+
+    .contenedor-titulo-todos {
+        margin-left: 95px;
+    }
+
+    .pag-todos {
+        width: 85vw;
+
+    }
+}
+
+@media (min-width: 765px) {
+    .contenedor-img-todos {
+        width: 45vw;
+        height: 20%;
+
+    }
+
+    .contenedor-titulo-todos {
+        margin-left: 38px;
+    }
+
+    .pag-todos {
+        width: 95vw;
 
     }
 
 }
 
-@media (min-width: 768px) and (max-width: 899px){
-    .pag-todos{
-        height: 67vh;
-        
+@media (min-width: 768px) {
+    .contenedor-img-todos {
+        width: 45vw;
+        height: 22vh;
+
     }
-    .imagen-todos{
-        width: 29vw;
+
+    .contenedor-titulo-todos {
+        margin-left: 38px;
     }
-    .contenedor-pag-todos{
+
+    .titulo-todos {
+        display: flex;
         align-items: center;
     }
 
+    .pag-todos {
+        width: 95vw;
+
+    }
+
 }
 
-@media (min-width: 844px) and (max-width: 1023px){
-    .titulo-todos{
-        margin-top: 100px;
-        margin-bottom: 30px;
-    }
-    .contenedor-pag-todos{
-        height: 100vw;
-    }
-    .pag-todos{
-        height: 155vh;
-    }
-    .btn-todos{
-      margin-top: 15px;
+@media (min-width: 844px) {
+    .contenedor-img-todos {
+
+        width: 45vw;
+        height: 23vh;
+
     }
 }
 
-@media (min-width: 900px) and (max-width: 1000px){
-    .contenedor-pag-todos{
-        height: 100vh;
+@media (min-width: 853px) {
+    .contenedor-img-todos {
+        width: 45vw;
+        height: 50vh;
+
     }
-    .pag-todos{
-        width: 85vw;
-        height: 67vh;
+}
+@media (min-width: 1024px){
+    .contenedor-img-todos {
+        width: 45vw;
+        height: 30vh;
+
     }
-    .imagen-todos{
-        width: 39vw;
+    .contenedor-titulo-todos{
+        margin-left: 55px;
     }
+}
+
+@media (min-width: 1440px) {
+    .contenedor-img-todos {
+        width: 20vw;
+        height: 20%;
+
+    }
+
+    .pag-todos {
+        width: 70vw;
+
+    }
+
+    .titulo-todos {
+        display: flex;
+        align-items: center;
+    }
+
+    .contenedor-titulo-todos {
+        width: 72%;
+        margin-left: 20px;
+
+    }
+
 }

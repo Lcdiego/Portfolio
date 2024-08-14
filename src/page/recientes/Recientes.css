@@ -10,10 +10,12 @@
 
 
 }
+.contenedor-titulo-recientes{
+    margin-top: 89px;
+}
 
 .titulo-recientes {
     color: white;
-    margin-top: 89px;
     width: 89vw;
     height: 10vh;
     display: flex;
@@ -88,6 +90,7 @@
 
     .contenedor-titulo-recientes {
         width: 98vw;
+        margin-top: 60px;
     }
 
     .contenedor-recientes {

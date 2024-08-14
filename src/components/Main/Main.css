@@ -1,0 +1,206 @@
+ @import url('https://fonts.googleapis.com/css2?family=Fondamento:ital@1&family=Inter:wght@300&family=Rosario:wght@300&display=swap');
+
+
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+ .contenedorFoto {
+
+     display: flex;
+     justify-content: center;
+
+     background-color: #1d2023;
+
+ }
+
+ .contenedorImagen_caja {}
+
+ .imagenPrincipal {
+     width: 40%;
+     z-index: 1;
+     
+
+ }
+
+ .caja {
+     width: 39%;
+     height: 305px;
+     border: 7px solid white;
+
+     bottom: 10px;
+     right: 32%;
+ }
+
+ .contenedorDescripcion {
+     width: 70%;
+     height: 100vh;
+     display: flex;
+     align-items: center;
+
+ }
+
+ .descripcionMIa {
+     display: flex;
+     flex-direction: column;
+     justify-content: space-around;
+     width: 80%;
+     height: 65%;
+ }
+
+ .titulo {
+     color: white;
+
+
+ }
+
+ .parrafo {
+
+
+
+
+     color: white;
+ }
+
+ .button {
+     display: flex;
+     justify-content: space-around;
+     margin-top: 7px;
+     width: 167px;
+     height: 44px;
+     color: #fff;
+     padding: 5px 10px;
+     font-weight: bold;
+     cursor: pointer;
+     transition: all 0.3s ease;
+     position: relative;
+     outline: none;
+     border-radius: 20px;
+     border: 2px solid #212529;
+     background: #0044ffc2;
+ }
+
+ .button:hover {
+     background: #adb7eb;
+     color: #212529
+ }
+
+ .botonIcono {
+     color: white;
+     margin-right: 10px;
+ }
+
+
+
+ @media (min-width: 320px) {
+     .contenedorFoto {
+         display: flex;
+         flex-direction: column;
+     }
+
+     .contenedorImagen_caja {
+         display: flex;
+         justify-content: center;
+         margin-top: 20px;
+         margin-bottom: 20px;
+     }
+
+     .contenedorDescripcion {
+         width: 100%;
+
+         display: flex;
+         justify-content: center;
+
+     }
+
+
+     .caja {
+         width: 39%;
+         height: 240px;
+         border: 7px solid white;
+
+         bottom: 8px;
+         right: 32%;
+     }
+
+     .descripcionMIa {
+         height: auto;
+
+
+     }
+
+     .contenedorDescripcion {
+         height: auto;
+         margin-bottom: 20px;
+     }
+
+     .caja {
+
+         padding-top: 10px;
+         padding-bottom: 10px;
+
+     }
+
+     .imagenPrincipal {
+         width: 100%;
+         height: 100%;
+         margin-left: 20px;
+     }
+
+
+
+ }
+ @media (min-width: 640px){
+    .caja {
+        width: 28%;
+        height: 240px;
+       
+    }
+    
+ }
+
+ @media (min-width: 765px){
+    .caja {
+        width: 25%;
+        height: 240px;
+       
+    }
+    
+ }
+ @media (min-width: 768px){
+    .caja {
+        width: 25%;
+        height: 240px;
+       
+    }
+    
+ }
+
+ @media (min-width: 1024px){
+    .contenedorImagen_caja{
+        width: 40%;
+        align-items: center;
+    }
+    .caja {
+        
+        width: 80%;
+        height: 340px;
+       
+    }
+    .contenedorFoto {
+        display: flex;
+        flex-direction: row;
+        height: 100vh;
+    }
+    
+ }
+ @media (min-width: 1440px){
+    .caja {
+        width: 55%;
+        height: 317px;
+       
+    }
+    
+ }

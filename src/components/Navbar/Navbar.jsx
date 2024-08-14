@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 
 import { Link } from 'react-router-dom';
 import { FiMenu } from "react-icons/fi";
-import './Menu.css';
+import './Navbar.css';
 
 const Menu = () => {
     const [menuOpen, setMenuOpen] = useState(false);
@@ -27,9 +27,7 @@ const Menu = () => {
                     </span>
                 </div>
                 <div className={`menu ${menuOpen ? 'show' : ''}`}>
-                    <Link>
-                    
-                    </Link>
+                   
                     <Link
                         className="link"
                         to="/"

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import '../Proyectos/Proyecto.css';
+import '../Proyectos/Proyectos.css';
 import img1 from './img/imagen_1.png';
 import img2 from './img/imagen_2.png';
 import img3 from './img/imagen_3.png';
@@ -9,7 +9,8 @@ import img5 from './img/imagen_5.png';
 import img6 from './img/imagen_6.png';
 import img7 from './img/Pizzeria.png';
 import img10 from './img/banco.png';
-import img from '../HeroNavbar/img/imagen_5.png';
+import img11 from './img/imagen_10.png'
+
 import { Carousel } from 'react-bootstrap';
 
 const Proyecto = () => {
@@ -112,18 +113,18 @@ const Proyecto = () => {
             </div>
 
             <div className='contenedor-link-proyectos'>
-                <div className='link'>
-                    <div>
+                <div className='link-proyectos'>
+                    <div className='contenedor-a'>
                         <Link to="/todos" className='menuProyecto'>Todos</Link>
                     </div>
-                    <div>
+                    <div  className='contenedor-a'>
                         <Link to="/recientes" className='menuProyecto'>Recientes</Link>
                     </div>
-                    <div>
+                    <div  className='contenedor-a'>
                         <Link to="/Diseño" className='menuProyecto'>Diseñando</Link>
                     </div>
 
-                    <div>
+                    <div  className='contenedor-a'>
                         <Link to="/ProyectosFuturos" className='menuProyecto'> Proyectos Futuros</Link>
                     </div>
 
@@ -133,7 +134,7 @@ const Proyecto = () => {
 
             <div className='contenedor-carrusel-proyectos'>
                 <div className='contenedor-imagen-foco'>
-                    <img className='imagen-foco' src={img} alt="" />
+                    <img className='imagen-foco' src={img11} alt="" />
                 </div>
                 <div className='carrusel'>
                     {mostrarProyectos()}

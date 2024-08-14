@@ -1,5 +1,5 @@
 import React from 'react';
-import '../Sectionexperiencia/Section.css';
+import '../Section-experiencia/Section.css';
 import img_1 from './img/imagen_1.png'
 import img_2 from './img/imagen_2.png'
 import img_3 from './img/imagen_3.png'

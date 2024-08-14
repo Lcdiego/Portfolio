@@ -22,30 +22,29 @@ header {
     width: 100%;
     z-index: 100;
 }
-hr{
+
+hr {
     color: white;
 }
 
 .imagFondo {
 
-    width: 100vw;
-    height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.0)),
+
+
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.0)),
         url('./img/imagen_2.jpg') center center no-repeat;
     background-size: cover;
 
 
 }
 
-
-
-.menu {
-    color: white;
-    font-size: 50px;
+.contenedor-hero {
     display: flex;
-    justify-content: flex-end;
-
+    flex-direction: column;
+    justify-content: center;
 }
+
+
 
 .menuItems {
     width: 100vh;
@@ -72,7 +71,7 @@ hr{
 }
 
 .imagContenedor {
-    height: 56vh;
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -115,16 +114,14 @@ hr{
     height: 17%;
 }
 
-.lineas {
-    width: 41%;
-    height: 69px;
-}
+
 
 .iconos {
     display: flex;
     justify-content: space-around;
     align-items: center;
     height: 75%;
+
 
 
 
@@ -176,83 +173,101 @@ hr{
 .ancho-11 {
     width: 140px;
 }
-@media (min-width: 390px) and (max-width: 767px){
-    .imagFondo{
-        height: 100vh;
-    }
-    .lineas{
-        width: 91%;
-    }
-    .contenedorIconos{
-        height: 14%;
-        align-items: center;
-    }
-}
-@media (min-width: 768px) and (max-width: 899px){
-    .imagFondo{
-        height: 100vh;
-    }
-}
 
-@media (min-width: 844px) and (max-width: 1023px) {
-
+@media (min-width: 320px) {
     .img {
-
-        width: 84px;
-        height: 84px;
-        border: 2px solid black;
-        border-top: 2px solid white;
-        border-bottom: 2px solid white;
-        border-radius: 50%;
-        background: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.1)),
-            url('./img/imagen_3.png') center center no-repeat;
-        background-size: cover;
-        
-    }
-    .imagFondo{
-        padding-top: 10%;
+        width: 123px;
+        height: 123px;
     }
 
-    .nombre {
-        color: rgb(248, 248, 248);
-        font-size: 30px;
-        font-family: 'Caveat', cursive;
-        text-transform: capitalize;
-        margin-top: 22px;
-
+    .contenedor-hero {
+        margin-top: 20%;
+        margin-bottom: 20%;
+        height: 80vh;
     }
 
-    .container {
-        margin-left: 0px;
-        margin-top: 23px;
-    } 
-    hr{
-        margin: 0px;
+    .iconos {
+        width: 100vw;
     }
-    .lineas{
-        width: 57%;
-    }
-
-}
-
-@media (min-width: 900px) and (max-width:1000px) {
 
     .imagFondo {
-        height: 56vh;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
     }
 
-    .imagContenedor {
-        height: 23vh;
+    .contenedor-border {
+        border-top: 1px solid white;
+        border-bottom: 1px solid white;
+        display: flex;
+        height: 65px;
+        align-items: center;
+        width: 100%;
+    }
+
+    .lineas {
+        width: 95%;
+    }
+}
+
+@media (min-width: 640px) {
+    .contenedor-hero {
+      
+        margin-top: 20%;
+    }
+}
+
+@media (min-width: 765px) {
+    .contenedor-hero {
+
+        margin-top: 15%;
+    }
+}
+
+
+@media (min-width: 768px) {
+
+    .contenedor-hero {
+        margin-top: 5%;
+        margin-bottom: 10%;
+height: 85vh;
+        justify-content: center;
+    }
+
+    .lineas {
+        display: flex;
+        justify-content: center;
+    }
+
+    .contenedor-border {
+        width: 60vw;
+    }
+}
+@media (min-width: 800px) {
+    .contenedor-hero {
+
+        margin-top: 14%;
+    }
+}
+@media (min-width: 1024px) {
+    .contenedor-hero {
+
+        margin-top: 3%;
+    }
+}
+@media (min-width:1440px) {
+    .contenedor-hero {
+        margin-top: 5%;
+        margin-bottom: 45px;
     }
 
     .img {
-
-        width: 160px;
-        height: 160px;
+        width: 180px;
+        height: 180px;
     }
 
-    .navbar-brand {
-        margin-top: 23px;
+    .contenedorIconos {
+        margin-top: 50px;
     }
-
 }

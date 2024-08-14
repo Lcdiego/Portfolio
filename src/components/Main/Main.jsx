@@ -18,12 +18,13 @@ const Main= () => {
                 
                 
                 <div className='contenedorImagen_caja'>
+                    <div className="caja">
+                    <img className='imagenPrincipal' src={imag} alt="" />
+                    </div>
                     
-                     <img className='imagenPrincipal' src={imag} alt="" />
                      
                 
-                    <div className="caja"> 
-                    </div>
+                   
                     
                  </div>
                  

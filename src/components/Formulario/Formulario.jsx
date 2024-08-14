@@ -1,5 +1,5 @@
 import React from 'react';
-import '../Formulario/Style.css';
+import '../Formulario/Formulario.css';
 const Formulario = () => {
     return(
         <div className='contenedorFormulario'id='contacto'>

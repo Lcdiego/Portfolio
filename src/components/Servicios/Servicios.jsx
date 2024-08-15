@@ -6,7 +6,10 @@ import { DiMongodb} from "react-icons/di";
 const Servicios = () => {
     return(
         <div className='servicios'id='servicios'>
+            <div className='contenedor-titulo-servicios'>
             <h1 className='titulo_Etiqueta'>Lo que hago</h1>
+            </div>
+            
         <div className='seccionServicios'>
             <div className='contenedorEtiqueas'>
                 <Link className='iconoEtiquetas' href="#" ><FaPencilAlt/></Link>

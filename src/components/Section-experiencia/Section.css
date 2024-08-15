@@ -17,11 +17,13 @@
     align-items: center;
     flex-direction: column;
 }
-
+.contenedor_titulo_section{
+    width: 90%;
+    height: 14%;
+}
 .titulo_section {
     font-family: 'Caveat', cursive;
-    width: 83%;
-    height: 14%;
+  
     color: white;
     font-size: 34px;
 }
@@ -93,6 +95,19 @@ img {
     .imagenes_tecnologias_1{
         margin-bottom: 40px;
         margin-top: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .imagenes_tecnologias{
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .titulo_imagenes{
+        font-size: 25px;
+    }
+    .titulo_imagenes1{
+        font-size: 25px;
     }
 
 }
@@ -110,7 +125,16 @@ img {
         width: 90%;
         height: 0%;
     }
-
+    .titulo_imagenes{
+        font-size: 35px;
+    }
+    .titulo_imagenes1{
+        font-size: 35px;
+        
+    }
+    .titulo_section{
+        font-size: 35px;
+    }
 
 }
 

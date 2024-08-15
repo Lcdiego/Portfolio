@@ -14,8 +14,8 @@ const Section = () => {
     return (
 
         <div className='contenedorSection' id='tecnologias'>
-            <div className='titulo_section'>
-                <h2>Experiencia tecnologicas</h2>
+            <div className='contenedor_titulo_section'>
+                <h2  className='titulo_section'>Experiencia tecnologicas</h2>
             </div>
 
             <h3 className='titulo_imagenes'>Frond end</h3>

@@ -37,20 +37,24 @@ html {
 }
 
 .link-proyectos {
-  
+    width: 20%;
     display: flex;
     justify-content: space-around;
 
 }
 
+.contenedor-a {
+    padding: 5px;
+}
+
 
 .menuProyecto {
     color: white;
-    width: 140px;
-    padding: 6px 12px;
+
+
     border-radius: 40px;
     text-decoration: none;
-    margin: 0px 8px;
+
 
 
 }
@@ -94,243 +98,190 @@ html {
     width: 43px;
 }
 
-@media (min-width: 320px) {
-    .contenedor-Proyectos {
+@media(min-width:320px) {
+    .carousel-indicators [data-bs-target] {
+        height: 5px;
+    }
 
+    .contenedor-titulo-proyectos {
+        padding: 20px;
+
+    }
+
+    .tituloProyectos {
+        font-size: 23px;
+    }
+
+    .contenedor-link-proyectos {
+        justify-content: center;
+    }
+
+    .link-proyectos {
+        width: 90%;
         display: flex;
         flex-direction: column;
 
     }
 
-    .contenedor-carrusel-proyectos {
-
-        display: flex;
-        margin-bottom: 20%;
-        margin-top: 10%;
-        justify-content: center;
-        align-items: flex-start;
-        height: auto;
+    .contenedor-a {
+        background: rgb(157, 154, 154);
+        border-radius: 3px;
+        margin: 2px;
     }
 
-    .imagen-foco {
-        width: 85%;
+    .contenedor-carrusel-proyectos {
+        height: 40vh;
+    }
+
+    .contenedor-imagen-foco {
         display: none;
     }
 
-    .menuProyecto {
-        color: white;
-       width: 8vw;
-        height: 34px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: 2px;
-        padding: 0px 6px;
-        border-radius: 5px;
-        background-color: #d5cdcd1f;
-        text-decoration: none;
-
-
-
-    }
-    .contenedor-link-proyectos {
-width: 79vw;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .link-proyectos {
-        width: 50vw;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-
-
-    }
-
-    .contenedor-titulo-proyectos {
-
-        display: flex;
-        align-items: center;
-        color: white;
-        margin-top: 20%;
-        margin-bottom: 20px;
-        margin-left: 15px;
-    }
-
-    .tituloProyectos {
-        font-size: 25px;
-    }
-
     .carousel {
-        width: 95vw;
+        width: 99%;
+        height: 33vh;
         margin-right: 0px;
+    }
+
+    .carousel-control-next-icon,
+    .carousel-control-prev-icon {
+        display: none;
+    }
+}
+
+
+
+@media(min-width:768px) {
+    .contenedor-titulo-proyectos {
         display: flex;
         align-items: center;
-
-
-
-    }
-
-
-
-   
-
-    .carousel-control-prev-icon,
-    .carousel-control-next-icon {
-        display: flex;
-        justify-content: center;
-
-        border-radius: 34px;
-        height: 0px;
-        width: 0px;
-    }
-
-    .contenedor-proyecto-imagen {
-        height: 25vh;
-    }
-
-
-}
-@media (min-width: 765px){
-    .contenedor-proyecto-imagen {
-        height: 50vh;
-    }
-    .contenedor-titulo-proyectos {
-        margin-top: 12%;
-    }
-    .contenedor-carrusel-proyectos{
-        margin-bottom: 40px;
-        margin-top: 40px;
-    }
-}
-
-@media (min-width: 768px) {
-    .link-proyectos {
-        display: flex;
-        flex-direction: row;
-        
-    }
-
-   .contenedor-a{
-    width: 20px;
-   }
-
-    .contenedor-carrusel-proyectos {
-        margin-bottom: 30px;
-        margin-top: 20px;
-    }
-
-    .contenedor-titulo-proyectos {
-        height: 10vh;
-        margin-top: 80px;
     }
 
     .tituloProyectos {
-        margin-left: 21px;
+        margin-left: 27px;
     }
 
-    .contenedor-proyecto-imagen {
-        height: 40vh;
-        margin-top: 32px;
-        margin-bottom: 30px;
-    }
-    
-
-}
-
-@media (min-width: 1024px) {
     .link-proyectos {
-        width: 70%;
-
+        flex-direction: row;
     }
 
-    .contenedor-titulo-proyectos {
-        margin-top: 60px;
+    .contenedor-a {
+        width: 22%;
     }
 
-    .contenedor-link-proyectos {
-      width: 93%;
-    }
+
 
     .contenedor-carrusel-proyectos {
-        display: flex;
-        align-items: center;
-        height: 50vh;
-        margin-top: 30px;
-
-    }
-
-    .carrusel {
-        width: 80%;
-        margin-right: 20px;
-    }
-
-    .contenedor-imagen-foco {
-        display: flex;
-        width: 50%;
-
-
-    }
-
-    .carousel {
-        width: 100%;
-
-
-    }
-
-
-
-    .imagen-foco {
-        display: block;
-    }
-}
-
-@media (min-width: 1440px) {
-    .link-proyectos {
-        width: 70%;
-    }
-
-    .contenedor-titulo-proyectos {
-        margin-top: 80px;
-        width: 30%;
-        justify-content: center;
-    }
-
-    .contenedor-link-proyectos {
-   width: 96%;
-    }
-
-    .contenedor-carrusel-proyectos {
-        display: flex;
-        align-items: center;
         height: 70vh;
-        margin-top: 30px;
-
     }
 
-    .carrusel {
-        width: 80%;
-        margin-right: 59px;
+    .carousel {
+        height: 53vh;
+    }
+}
+
+
+
+
+
+@media(min-width:1024px) {
+    .tituloProyectos {
+        margin-left: 71px;
+    }
+
+    .contenedor-a {
+        width: 16%;
     }
 
     .contenedor-imagen-foco {
-        display: flex;
-        width: 50%;
+        width: 30vw;
+        display: block;
+    }
 
+    .contenedor-carrusel-proyectos {
+        height: 80vh;
+    }
+
+    .carrusel {
+        width: 70vw;
+        height: 55vh;
 
     }
 
     .carousel {
+        width: 96%;
+        height: 52vh;
+    }
+
+    .proyectoImagen {
         width: 100%;
     }
+}
 
-    .imagen-foco {
-        display: block;
+@media(min-width:1440px) {
+    .tituloProyectos {
+        margin-left: 137px;
     }
 
-    .contenedor-proyecto-imagen {
-        height: 60vh;
+    .contenedor-a {
+        width: 12%;
+    }
+
+    .proyectoImagen {
+        width: 85%;
+    }
+
+    .contenedor-carrusel-proyectos {
+        height: 80vh;
+    }
+
+    .carousel {
+
+        height: 62vh;
+    }
+
+    .carousel-indicators [data-bs-target] {
+        height: 6px;
+    }
+}
+
+@media(min-width:1500px) {
+    .tituloProyectos {
+        margin-left: 170px;
+    }
+
+    .carousel {
+
+        height: 66vh;
+    }
+}
+
+
+
+@media (min-width: 320px) and (max-width: 910px) and (orientation: landscape) {
+    .proyectoImagen {
+
+        width: 56vw;
+    }
+
+    .contenedor-Proyectos {
+        height: 100vh;
+    }
+
+    .link-proyectos {
+        flex-direction: row;
+
+    }
+
+    .contenedor-a {
+        width: 150px;
+    }
+
+    .carrusel {
+        height: 31vh;
+    }
+
+    .carousel {
+        height: 63vh;
     }
 }

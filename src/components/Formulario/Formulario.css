@@ -6,17 +6,18 @@
 }
 
 .tituloFormulario {
-    margin-top: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     color: rgb(254, 254, 253);
 }
 
 .contenedorFormulario {
     background-color: rgb(29, 32, 35);
     width: 100vw;
-    height: 100vh;
+   
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+   
     align-items: center;
 }
 
@@ -37,8 +38,8 @@
 .input {
 
     width: 87%;
-    height: 8%;
-    border-radius: 45px;
+    height: 7vh;
+    border-radius: 5px;
     background-color: rgb(203, 218, 240);
     border: none;
     font-size: 17px;
@@ -58,12 +59,12 @@ textarea {
     width: 87%;
     height: 32%;
     background-color: rgb(203, 218, 240);
-    border-radius: 45px;
+    border-radius: 5px;
     border: none;
     font-size: 17px;
     color: white;
     padding: 30px 26px;
-    margin-top: 22px;
+    margin-top: 12px;
 
 
 
@@ -74,7 +75,8 @@ textarea:hover {
 }
 
 .boton {
-    margin-top: 114px;
+    margin-top: 24px;
+    margin-bottom: 34px;
     min-width: 130px;
     height: 40px;
     color: #fff;
@@ -98,152 +100,28 @@ textarea:hover {
     color: #212529
 }
 
-@media (min-width: 390px) and (max-width: 767px) {
-
-    .contenedorFormulario {
-        background-color: rgb(29, 32, 35);
-        width: 100vw;
-        height: 100vh;
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-end;
-        align-items: center;
+@media (min-width: 320px){
+    .formulario{
+        width: 98%;
     }
-
-    .formulario {
-        width: 100%;
-        height: 74%;
-        background-color: rgb(29, 32, 35);
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .input {
-
-        width: 90vw;
-        height: 6%;
-        border-radius: 45px;
-        background-color: rgb(203, 218, 240);
-        border: none;
-        font-size: 17px;
-        color: white;
-        margin: 10px;
-        padding-left: 30px;
-
-
-    }
-
-    textarea {
-        width: 90vw;
-        border-radius: 20px;
-    }
-
-    .boton {
-        margin-top: 51px;
-    }
-
 }
-
-@media (min-width: 768px) and (max-width: 899px) {
-
-    .contenedorFormulario {
-        height: 100vh;
-
+@media (min-width: 1024px){
+    .formulario{
+        width: 68%;
     }
-
-    .formulario {
-        width: 76%;
-    }
-
-    .input {
-
-        width: 75vw;
-        height: 8%;
-    }
-
-    textarea {
-        width: 75vw;
-        border-radius: 20px;
-    }
-
-    .boton {
-        margin-top: 33px;
-        margin-bottom: 33px;
-    }
-
-
 }
-
-@media (min-width: 844px) and (max-width: 1023px) {
-
-    .contenedorFormulario {
-        height: 100vh;
-    }
-
-    .tituloFormulario {
-        margin-top: 10px;
-        font-size: 30px;
-    }
-
-
-    .formulario {
-        width: 50%;
-        height: 65%;
-    }
-
-    .boton {
-        margin-top: 21px;
-        margin-bottom: 20px;
-    }
-
-    .input {
-        height: 10%;
-        width: 40vw;
-        padding-left: 16px;
-    }
-
-    textarea {
-        width: 40vw;
-        border-radius: 20px;
-        height: 25%;
-        margin-top: 14px;
-        padding-left: 16px;
-    }
-
-
-
-}
-
-@media (min-width: 900px) and (max-width:1000px) {
-    .input {
-        height: 8%;
-        width: 90vw;
-    }
-    textarea{
-        width: 90vw;
-    }
-
-    .contenedorFormulario {
-        justify-content: center;
-        height: 100vh;
-    }
-
-    .boton {
-        margin-top: 128px;
-        min-width: 167px;
-        height: 49px;
-    }
-
-    .formulario {
-        justify-content: center;
+@media (min-width: 1440px){
+    .formulario{
+        width: 58%;
     }
 }
 
-@media (min-width: 1024px) and (max-width: 1439px) {
-    .formulario {
-        width: 70vw;
-
+@media (min-width: 320px) and (max-width: 910px) and (orientation: landscape){
+    .input{
+        height: 11vh;
+        
+    }
+    .formulario{
+        width: 65%;
     }
 }

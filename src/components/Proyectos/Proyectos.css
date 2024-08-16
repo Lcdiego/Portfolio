@@ -106,10 +106,12 @@ html {
     .contenedor-titulo-proyectos {
         padding: 20px;
 
+
     }
 
     .tituloProyectos {
         font-size: 23px;
+        margin-top: 30px;
     }
 
     .contenedor-link-proyectos {
@@ -124,9 +126,10 @@ html {
     }
 
     .contenedor-a {
-        background: rgb(157, 154, 154);
+        background-color: #333333ab;
+        box-shadow: 4px 4px 6px rgb(181, 178, 178);
         border-radius: 3px;
-        margin: 2px;
+        margin: 4px;
     }
 
     .contenedor-carrusel-proyectos {
@@ -138,6 +141,7 @@ html {
     }
 
     .carousel {
+        margin-top: 20px;
         width: 99%;
         height: 33vh;
         margin-right: 0px;
@@ -158,21 +162,25 @@ html {
     }
 
     .tituloProyectos {
-        margin-left: 27px;
+        margin-left: 37px;
+        margin-top: 80px;
     }
 
     .link-proyectos {
+        margin-top: 40px;
         flex-direction: row;
     }
 
     .contenedor-a {
         width: 22%;
+        box-shadow: none;
     }
 
 
 
     .contenedor-carrusel-proyectos {
-        height: 70vh;
+        height: 75vh;
+        align-items: flex-start;
     }
 
     .carousel {
@@ -259,14 +267,16 @@ html {
 
 
 @media (min-width: 320px) and (max-width: 910px) and (orientation: landscape) {
+    .tituloProyectos{
+        margin-top: -10px;
+    }
+
     .proyectoImagen {
 
         width: 56vw;
     }
 
-    .contenedor-Proyectos {
-        height: 100vh;
-    }
+   
 
     .link-proyectos {
         flex-direction: row;
@@ -276,12 +286,15 @@ html {
     .contenedor-a {
         width: 150px;
     }
-
-    .carrusel {
-        height: 31vh;
+    .carousel{
+        height: 70vh;
+    }
+    .carrusel{
+        height: 40vh;
+    }
+    .contenedor-Proyectos{
+        height: 100vh;
     }
 
-    .carousel {
-        height: 63vh;
-    }
+   
 }

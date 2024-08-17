@@ -31,7 +31,7 @@ const Main= () => {
             <div className='contenedorDescripcion'>
             <div className='descripcionMIa'>
             <h1 className='titulo'>Acerca de mi</h1>
-            <p className='parrafo'>Mi nombre es Diego Leandro Colman, vivo en la ciudad de  Plata , Buenos Aires, Argentina.</p>
+            <p className='parrafo'>Mi nombre es Diego Leandro Colman, Buenos Aires, Argentina.</p>
             <p className='parrafo'> Soy programador Web Full Stack . Estudié en la Universidad Tecnológica Nacional (UTN) y mi prioridad es desempeñarme en diseños agradables y fáciles de utilizar para los usuarios.</p>
             
             <p className='parrafo'>Me apasiona diseñar y programar para que mis clientes queden 100% satisfechos. Cada proyecto es un desafío personal, priorizando el crecimiento y buscando aumentar los ingresos de las empresas que me contraten.</p>

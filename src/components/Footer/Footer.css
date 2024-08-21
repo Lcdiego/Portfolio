@@ -25,11 +25,12 @@
     margin: 10px;
     
 }
+
 .tituloFooter{
     color:rgb(176,165,154);
     font-size: 13px;
     font-family: 'Pompiere', cursive;
-    margin: 20px;
+padding: 10px;
 }
 .iconosFooter{
     display: flex;
@@ -47,26 +48,21 @@
 }
 
 
-@media (min-width: 390px) and (max-width: 767px){
+@media (min-width: 320px){
    .Footer{
     width: 75% ;
    } 
    .contenedorFooter{
-    height: 26vw;
+
     justify-content: flex-start;
    }
-   .tituloFooter{
-
-    margin: 2px;
-   }
+  
 }
-@media (min-width: 844px) and (max-width: 1023px){
+@media (min-width: 768px){
 
     .Footer{
         width: 52%;
     }
-    .tituloFooter{
-        margin: 4px;
-    }
+  
     
 }

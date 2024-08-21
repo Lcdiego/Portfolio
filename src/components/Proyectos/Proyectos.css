@@ -50,13 +50,7 @@ html {
 
 .menuProyecto {
     color: white;
-
-
-    border-radius: 40px;
     text-decoration: none;
-
-
-
 }
 
 .menuProyecto:hover {
@@ -77,15 +71,19 @@ html {
 
 .carousel {
     width: 71vw;
-    margin-right: 20px;
 
 }
 
-.proyectoImagen {
-    width: 96%;
+.contenedor-proyecto-imagen {
+    width: auto;
     height: 100%;
     border-radius: 8px;
     cursor: pointer;
+}
+
+.proyectoImagen {
+    width: 100%;
+    height: 100%;
 }
 
 .carousel-control-prev-icon,
@@ -99,6 +97,14 @@ html {
 }
 
 @media(min-width:320px) {
+    .contenedor-Proyectos {
+        height: 85vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+
+    }
+
     .carousel-indicators [data-bs-target] {
         height: 5px;
     }
@@ -111,7 +117,8 @@ html {
 
     .tituloProyectos {
         font-size: 23px;
-        margin-top: 30px;
+        margin-top: 46px;
+
     }
 
     .contenedor-link-proyectos {
@@ -126,10 +133,10 @@ html {
     }
 
     .contenedor-a {
-        background-color: #333333ab;
-        box-shadow: 4px 4px 6px rgb(181, 178, 178);
+        background-color: #4f4d4dab;
+        margin: 3px;
         border-radius: 3px;
-        margin: 4px;
+
     }
 
     .contenedor-carrusel-proyectos {
@@ -140,11 +147,17 @@ html {
         display: none;
     }
 
+    .contenedor-proyecto-imagen {
+        height: 30vh;
+    }
+
     .carousel {
         margin-top: 20px;
-        width: 99%;
-        height: 33vh;
-        margin-right: 0px;
+        width: auto;
+        height: 38vh;
+        margin-left: 5px;
+        margin-right: 5px;
+
     }
 
     .carousel-control-next-icon,
@@ -171,20 +184,26 @@ html {
         flex-direction: row;
     }
 
-    .contenedor-a {
-        width: 22%;
-        box-shadow: none;
+    .menuProyecto {
+        width: 150px;
     }
 
-
+    .contenedor-proyecto-imagen {
+        height: 50vh;
+    }
 
     .contenedor-carrusel-proyectos {
         height: 75vh;
-        align-items: flex-start;
+
+    }
+
+    .carrusel {
+        width: 90vw;
+        height: 60vh;
     }
 
     .carousel {
-        height: 53vh;
+        height: 57vh;
     }
 }
 
@@ -197,9 +216,7 @@ html {
         margin-left: 71px;
     }
 
-    .contenedor-a {
-        width: 16%;
-    }
+
 
     .contenedor-imagen-foco {
         width: 30vw;
@@ -218,34 +235,42 @@ html {
 
     .carousel {
         width: 96%;
-        height: 52vh;
+        height: 56vh;
     }
 
-    .proyectoImagen {
-        width: 100%;
+    .contenedor-proyecto-imagen {
+        height: 50vh;
     }
+
+
 }
 
 @media(min-width:1440px) {
+    .contenedor-Proyectos {
+        height: auto;
+    }
+
     .tituloProyectos {
         margin-left: 137px;
     }
 
-    .contenedor-a {
-        width: 12%;
-    }
+
 
     .proyectoImagen {
         width: 85%;
     }
 
     .contenedor-carrusel-proyectos {
-        height: 80vh;
+        height: 71vh;
+    }
+
+    .carrusel {
+        height: 58vh;
     }
 
     .carousel {
 
-        height: 62vh;
+        height: 60vh;
     }
 
     .carousel-indicators [data-bs-target] {
@@ -255,46 +280,57 @@ html {
 
 @media(min-width:1500px) {
     .tituloProyectos {
-        margin-left: 170px;
+        margin-left: 186px;
     }
 
     .carousel {
 
-        height: 66vh;
+        height: 57vh;
     }
 }
 
 
 
-@media (min-width: 320px) and (max-width: 910px) and (orientation: landscape) {
-    .tituloProyectos{
-        margin-top: -10px;
+@media (min-width: 320px) and (max-width: 910px) and (orientation: landscape) and (max-height: 480px) {
+    .tituloProyectos {
+        margin-top: 60px;
+
     }
 
-    .proyectoImagen {
 
-        width: 56vw;
-    }
 
-   
 
     .link-proyectos {
         flex-direction: row;
+
 
     }
 
     .contenedor-a {
         width: 150px;
     }
-    .carousel{
-        height: 70vh;
-    }
-    .carrusel{
-        height: 40vh;
-    }
-    .contenedor-Proyectos{
+
+    .contenedor-carrusel-proyectos {
         height: 100vh;
     }
 
-   
+    .carousel {
+        height: 90vh;
+    }
+
+    .carrusel {
+        width: 70vw;
+        height: 80vh;
+    }
+
+    .contenedor-proyecto-imagen {
+        width: auto;
+        height: auto;
+    }
+
+    .contenedor-Proyectos {
+        height: auto;
+    }
+
+
 }

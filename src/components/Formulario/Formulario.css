@@ -104,6 +104,9 @@ textarea:hover {
     .formulario{
         width: 98%;
     }
+    .tituloFormulario{
+        margin-top: 129px;
+    }
 }
 @media (min-width: 1024px){
     .formulario{

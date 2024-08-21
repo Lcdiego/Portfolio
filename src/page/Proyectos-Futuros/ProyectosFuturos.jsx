@@ -16,7 +16,7 @@ const ProyectosFuturos = () => {
     
     <div className='contenedor-pag-Proyectos_Futuros'>
         <div>
-            <h2 className='titulo-Proyectos_Futuros'>Proyectos Proyectos_Futuros</h2>
+            <h2 className='titulo-Proyectos_Futuros'>Proyectos futuros</h2>
         </div>
       <div className='pag-Proyectos_Futuros'>
         {imagenes.map((imagen, index) => (

@@ -114,19 +114,27 @@ const Proyecto = () => {
 
             <div className='contenedor-link-proyectos'>
                 <div className='link-proyectos'>
-                    <div className='contenedor-a'>
-                        <Link to="/todos" className='menuProyecto'>Todos</Link>
-                    </div>
-                    <div  className='contenedor-a'>
-                        <Link to="/recientes" className='menuProyecto'>Recientes</Link>
-                    </div>
-                    <div  className='contenedor-a'>
-                        <Link to="/Diseño" className='menuProyecto'>Diseñando</Link>
-                    </div>
+                    <Link to="/todos" className='menuProyecto'>
+                        <div className='contenedor-a'>
+                            Todos
+                        </div>
+                    </Link>
+                    <Link to="/recientes" className='menuProyecto'>
+                        <div className='contenedor-a'>
+                            Recientes
+                        </div>
+                    </Link>
+                    <Link to="/Diseño" className='menuProyecto'>
+                        <div className='contenedor-a'>
+                            Diseñando
+                        </div>
+                    </Link>
+                    <Link to="/ProyectosFuturos" className='menuProyecto'>
+                        <div className='contenedor-a'>
+                            Proyectos Futuros
 
-                    <div  className='contenedor-a'>
-                        <Link to="/ProyectosFuturos" className='menuProyecto'> Proyectos Futuros</Link>
-                    </div>
+                        </div>
+                    </Link>
 
                 </div>
 

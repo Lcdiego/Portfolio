@@ -7,7 +7,7 @@
     justify-content: flex-start;
     align-items: center;
     width: 100vw;
-    height: 100vh;
+   
 
 }
 
@@ -40,7 +40,8 @@
     display: flex;
     justify-content: center;
     text-decoration: none;
-    margin-top: 71px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     min-width: 130px;
     height: 40px;
     color: #fff;
@@ -61,53 +62,95 @@
 }
 
 
-@media (min-width: 390px) and (max-width: 767px){
-    .imagen-Proyectos_Futuros{
-        width: 59vw;
-    }
-}
-@media (min-width: 768px) and (max-width: 899px){
-    .imagen-Proyectos_Futuros{
-        width: 60vw;
-    }
-    .pag-Proyectos_Futuros{
-        height: 69vh;
-    }
-}
-
-@media (min-width: 844px) and (max-width: 1023px){
+@media (min-width: 320px) {
     .contenedor-pag-Proyectos_Futuros{
-        height: 214vh;
-    }
-    .pag-Proyectos_Futuros{
-        height: 160vh;
-    }
-    .imagen-Proyectos_Futuros{
-        width: 43vw;
-    }
-    .btn-Proyectos_Futuros{
-        margin-top: 12px;
-        margin-bottom: 12px;
+        height: 85vh;
+        display: flex;
+        justify-content: space-around
     }
     .titulo-Proyectos_Futuros{
         font-size: 20px;
     }
+    .imagen-Proyectos_Futuros {
+        width: 91vw;
+    }
+    .pag-Proyectos_Futuros{
+        width: auto;
+        height: auto;
+    }
     .btn-Proyectos_Futuros{
-        min-width: 108px;
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
 }
 
-@media (min-width: 900px) and (max-width: 1000px){
-    .imagen-Proyectos_Futuros{
-        width: 50vw;
+@media (min-width: 768px) {
+    .contenedor-pag-Proyectos_Futuros{
+        height: 100vh;
+    }
+    .imagen-Proyectos_Futuros {
+        width: 70vw;
     }
     .pag-Proyectos_Futuros{
-        height: 70vh;
+        width: 80vw;
+        height: 50vh;
+        display: flex;
+        align-items: center;
+    }
+
+}
+
+@media (min-width: 1024px) {
+
+    .pag-Proyectos_Futuros{
+        width: 70vw;
+    }
+    .imagen-Proyectos_Futuros {
+        width: 60vw;
+    }
+
+    .btn-Proyectos_Futuros {
+        margin-top: 12px;
+        margin-bottom: 12px;
+    }
+
+    .titulo-Proyectos_Futuros {
+        font-size: 20px;
+    }
+
+   
+}
+
+
+@media (min-width: 1440px) {
+    .pag-Proyectos_Futuros{
+        width: 60vw;
+        height: 65vh;
+    }
+    .imagen-Proyectos_Futuros {
+        width: 48vw;
     }
     
 }
-@media (min-width: 1440px) and (max-width: 1756px){
-    .imagen-Proyectos_Futuros{
-        width: 30vw;
+
+@media (min-width: 320px) and (max-width: 910px) and (orientation: landscape) and (max-height: 480px) {
+    .titulo-Proyectos_Futuros{
+        margin-top: 80px;
+        margin-bottom: 10px;
+        font-size: 20px;
     }
+    .contenedor-pag-Proyectos_Futuros {
+        height: 153vh;
+    }
+
+    .pag-Proyectos_Futuros {
+        width: auto;
+        height: auto;
+    }
+
+    .imagen-Proyectos_Futuros {
+        width: 68vw;
+    }
+   
+   
 }

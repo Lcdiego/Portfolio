@@ -154,13 +154,14 @@
 @media (min-width: 768px) {
     .contenedor-img-recientes {
         width: 45vw;
-        height: 25vh;
+        height: auto;
 
     }
 
     .pag-recientes {
         width: 95vw;
         justify-content: space-between;
+        margin-top: 20px;
     }
 
     .contenedor-titulo-recientes {
@@ -193,12 +194,12 @@
 @media (min-width: 1024px) {
     .contenedor-img-recientes {
         width: 45vw;
-        height: 32vh;
+        height: auto;
     }
 
     .pag-recientes {
-        align-items: center;
-        height: 67vh;
+        
+        height: auto;
     }
 
 
@@ -227,3 +228,10 @@
         justify-content: space-around;
     }
 }
+
+@media (min-width: 320px) and (max-width: 910px) and (orientation: landscape) and (max-height: 480px) {
+
+    .contenedor-img-recientes{
+     height: 80vh;
+    } 
+ }

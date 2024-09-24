@@ -10,7 +10,8 @@
 
 
 }
-.contenedor-titulo-recientes{
+
+.contenedor-titulo-recientes {
     margin-top: 89px;
 }
 
@@ -100,10 +101,10 @@
 
     .contenedor-img-recientes {
         width: 90vw;
-        height: 25vh;
         padding-bottom: 10px;
         padding-top: 2px;
         margin-right: 0px;
+        margin-bottom: 68px;
 
     }
 
@@ -195,10 +196,11 @@
     .contenedor-img-recientes {
         width: 45vw;
         height: auto;
+
     }
 
     .pag-recientes {
-        
+
         height: auto;
     }
 
@@ -215,7 +217,7 @@
     .contenedor-titulo-recientes {
 
         width: 72vw;
-      
+
     }
 
     .titulo-recientes {
@@ -231,7 +233,7 @@
 
 @media (min-width: 320px) and (max-width: 910px) and (orientation: landscape) and (max-height: 480px) {
 
-    .contenedor-img-recientes{
-     height: 80vh;
-    } 
- }
+    .contenedor-img-recientes {
+        height: 80vh;
+    }
+}

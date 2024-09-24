@@ -169,6 +169,12 @@ html {
 
 
 @media(min-width:768px) {
+
+    .carousel-control-next-icon,
+    .carousel-control-prev-icon {
+        display: block;
+    }
+
     .contenedor-titulo-proyectos {
         display: flex;
         align-items: center;
@@ -249,6 +255,10 @@ html {
     .contenedor-Proyectos {
         height: auto;
     }
+    .contenedor-proyecto-imagen{
+        height: 60vh;
+   
+    }
 
     .tituloProyectos {
         margin-left: 137px;
@@ -257,7 +267,7 @@ html {
 
 
     .proyectoImagen {
-        width: 85%;
+        width: 95%;
     }
 
     .contenedor-carrusel-proyectos {
@@ -271,6 +281,7 @@ html {
     .carousel {
 
         height: 60vh;
+        width: 60vw;
     }
 
     .carousel-indicators [data-bs-target] {
@@ -285,7 +296,7 @@ html {
 
     .carousel {
 
-        height: 57vh;
+        height: 64vh;
     }
 }
 

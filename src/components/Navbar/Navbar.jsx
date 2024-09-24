@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 import { FiMenu } from "react-icons/fi";
 import './Navbar.css';
 
+
 const Menu = () => {
     const [menuOpen, setMenuOpen] = useState(false);
 
@@ -16,7 +17,8 @@ const Menu = () => {
         setMenuOpen(false);
     };
 
-   
+
+
 
     return (
         <div className={`menuHorizontal ${menuOpen ? 'open' : ''}`}>
@@ -27,27 +29,27 @@ const Menu = () => {
                     </span>
                 </div>
                 <div className={`menu ${menuOpen ? 'show' : ''}`}>
-                   
+
                     <Link
                         className="link"
                         to="/"
                         onClick={cerrar}
-                       
+
                     >
                         Inicio
                     </Link>
 
                     <Link
-                       
+
                         className="link"
                         to="/Main"
 
                         onClick={cerrar}
                     >
                         Sobre Mi
-                        </Link>
+                    </Link>
                     <Link
-                       
+
                         className="link"
                         to="/Proyectos"
 
@@ -59,7 +61,7 @@ const Menu = () => {
                     <Link
                         className="link"
                         to="/Tecnologias"
-                       
+
                         onClick={cerrar}
                     >
                         Tecnologias
@@ -67,7 +69,7 @@ const Menu = () => {
                     <Link
                         className="link"
                         to="/Servicios"
-                       
+
                         onClick={cerrar}
                     >
                         Servicios
@@ -75,11 +77,12 @@ const Menu = () => {
                     <Link
                         className="link"
                         to="/Formulario"
-                        
+
                         onClick={cerrar}
                     >
                         Contacto
                     </Link>
+               
                 </div>
             </div>
         </div>

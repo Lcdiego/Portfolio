@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Caveat&family=EB+Garamond:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalnia+Glaze:wght@100..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
 * {
     margin: 0;
@@ -31,17 +31,22 @@ hr {
 
 
 
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.0)),
-        url('./img/imagen_2.jpg') center center no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4)),
+        url('./img/hero.jpg')no-repeat center center;
     background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100vh;
+    position: relative;
 
 
 }
 
 .contenedor-hero {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    position: relative;
+    z-index: 1;
+    padding: 100px 0;
+
 }
 
 
@@ -78,33 +83,33 @@ hr {
     justify-content: flex-end;
 }
 
-.img {
 
-    width: 180px;
-    height: 180px;
-    border: 2px solid black;
-    border-top: 2px solid white;
-    border-bottom: 2px solid white;
-    border-radius: 50%;
-    background: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.1)),
-        url('./img/imagen_3.png') center center no-repeat;
-    background-size: cover;
-}
 
 .nombre {
-    color: rgb(248, 248, 248);
-    font-size: 35px;
-    font-family: 'Caveat', cursive;
-    text-transform: capitalize;
+    width: 63%;
+    font-size: 65px;
+    font-family: "Playfair Display", serif;
+    font-weight: 600;
+
     margin-top: 32px;
 
+    color: white;
+}
+
+.contenedor-descripcion {
+    width: 90%;
+    display: flex;
+    justify-content: end;
 }
 
 .descripcion {
-    font-family: 'Caveat', cursive;
-    color: rgb(248, 248, 248);
-    font-size: 30px;
+
+
+    font-family: "Playfair Display", serif;
+    font-size: 65px;
     margin-top: 10px;
+    font-weight: 600;
+    color: white;
 }
 
 .contenedorIconos {
@@ -112,6 +117,7 @@ hr {
     justify-content: center;
     margin-top: 10px;
     height: 17%;
+
 }
 
 
@@ -127,13 +133,22 @@ hr {
 
 }
 
+.contenedor-border {
+    border-top: 1px solid rgba(9, 91, 232, 0.93);
+    border-bottom: 1px solid rgba(9, 91, 232, 0.93);
+    display: flex;
+    height: 75px;
+    align-items: center;
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.352);
+}
 
 .redes {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 26px;
-    color: rgb(255, 255, 255);
+    font-size: 46px;
+    color: rgba(53, 119, 232, 0.93);
     border-radius: 20px;
     margin-right: 20px;
     height: 87%;
@@ -165,7 +180,7 @@ hr {
 
 
 
-/* En tu archivo CSS */
+
 .ancho-10 {
     width: 123px;
 }
@@ -175,6 +190,23 @@ hr {
 }
 
 @media (min-width: 320px) {
+
+    .nombre {
+        font-size: 28px;
+    }
+
+    .descripcion {
+        font-size: 28px;
+    }
+
+    .contenedor-border {
+        margin-top: 30%;
+    }
+
+    .redes {
+        font-size: 35px;
+    }
+
     .img {
         width: 123px;
         height: 123px;
@@ -197,14 +229,7 @@ hr {
         justify-content: space-around;
     }
 
-    .contenedor-border {
-        border-top: 1px solid white;
-        border-bottom: 1px solid white;
-        display: flex;
-        height: 65px;
-        align-items: center;
-        width: 100%;
-    }
+
 
     .lineas {
         width: 95%;
@@ -213,25 +238,44 @@ hr {
 
 @media (min-width: 640px) {
     .contenedor-hero {
-      
+
         margin-top: 20%;
     }
 }
 
-@media (min-width: 765px) {
-    .contenedor-hero {
+.contenedorIconos {
+    margin-top: 37%;
+}
 
-        margin-top: 15%;
-    }
+.contenedor-border {
+    margin-top: 0%;
+}
+
+.imagContenedor {
+    margin-top: 0%;
 }
 
 
+
+
 @media (min-width: 768px) {
+    .nombre {
+        font-size: 50px;
+
+    }
+
+    .descripcion {
+        font-size: 50px;
+    }
+
+    .contenedorIconos {
+        margin-top: 15%;
+    }
 
     .contenedor-hero {
         margin-top: 5%;
         margin-bottom: 10%;
-height: 85vh;
+        height: 85vh;
         justify-content: center;
     }
 
@@ -244,18 +288,21 @@ height: 85vh;
         width: 60vw;
     }
 }
+
 @media (min-width: 800px) {
     .contenedor-hero {
 
         margin-top: 14%;
     }
 }
+
 @media (min-width: 1024px) {
     .contenedor-hero {
 
         margin-top: 3%;
     }
 }
+
 @media (min-width:1440px) {
     .contenedor-hero {
         margin-top: 5%;
@@ -268,6 +315,6 @@ height: 85vh;
     }
 
     .contenedorIconos {
-        margin-top: 50px;
+        margin-top: 144px;
     }
 }

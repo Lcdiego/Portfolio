@@ -21,7 +21,6 @@
 .seccionServicios {
     width: 100vw;
 
-    background-color: rgb(29, 32, 35);
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -34,10 +33,10 @@
 .contenedorEtiqueas {
     width: 419px;
 
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.0)),
+    background: 
         url('./img/imagen_11.jpg') center center no-repeat;
     border-radius: 10%;
-    box-shadow: 0px 8px 5px 4px rgb(14, 15, 16);
+    box-shadow: 0px 8px 8px 4px rgba(8, 8, 8, 0.586);
     margin-left: 10px;
     margin-right: 10px;
     padding: 57px;
@@ -55,9 +54,7 @@
 
 .servicios {
     width: 100vw;
-
-    background-color: rgb(29, 32, 35);
-
+    background: linear-gradient(180deg, rgba(2, 0, 36, 0.963) 0%, rgba(9, 9, 121, 0.87) 35%, rgba(0, 213, 255, 0.304) 100%);
 }
 
 .tituloEtiqueta {
@@ -102,15 +99,23 @@
         margin-left: 30px;
         margin-right: 30px;
     }
+    .iconoEtiquetas{
+        font-size: 34px;
+    }
 }
 
 @media (min-width: 768px) {
     .contenedorEtiqueas {
         margin-bottom: 3%;
+        padding: 50px;
+       
     }
 
     .seccionServicios {
         padding-bottom: 40px;
+    }
+    .iconoEtiquetas{
+        font-size: 40px;
     }
 }
 
@@ -120,10 +125,7 @@
     padding-left: 90px;
     padding-right: 90px;
 }
-.contenedorEtiqueas{
-    padding-top: 40px;
-    padding-bottom: 40px;
-}
+
 }
 
 @media (min-width: 1500px){
@@ -134,10 +136,5 @@
 .seccionServicios{
     padding-top: 90px;
 }
-.contenedorEtiqueas{
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding-left: 50px;
-    padding-right: 50px;
-}
+
 }

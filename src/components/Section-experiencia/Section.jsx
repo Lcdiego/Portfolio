@@ -17,7 +17,7 @@ const Section = () => {
 
         <div className='contenedorSection' id='tecnologias'>
             <div className='contenedor_titulo_section'>
-                <h2 className='titulo_section'>Experiencia tecnologicas</h2>
+                <h2 className='titulo_section'>Experiencia tecnologica</h2>
             </div>
 
             <h3 className='titulo_imagenes'>Frond end</h3>

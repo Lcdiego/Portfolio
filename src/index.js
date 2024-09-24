@@ -13,6 +13,7 @@ import Recientes from './page/recientes/recientes';
 import Diseño from './page/Diseño/Diseño';
 import ProyectosFuturos from './page/Proyectos-Futuros/ProyectosFuturos';
 import Navbar from './components/Navbar/Navbar';
+import DescripcionProyectos from './components/DescripcionProyectos/DescripcionProyectos';
 
 
 const mostrar = () => (
@@ -32,6 +33,7 @@ const App = () => (
       <Navbar />
       <Routes>
       <Route path="/" element= {mostrar()} />
+      <Route path="/descripcion-proyectos" element={<DescripcionProyectos />} />
         <Route path="/todos" element={<Todos />} />
         <Route path="/recientes" element={<Recientes />} />
         <Route path="/Diseño" element={<Diseño />} />

@@ -7,6 +7,7 @@
     box-sizing: border-box;
 }
 
+
 .contenedorFooter{
     width: 100vw;
     background-color:rgb(26,29,33) ;
@@ -42,6 +43,7 @@ padding: 10px;
     background-color:rgb(29,32,35) ;
     color: rgb(254,254,253);
     font-size: 25px;
+    border: none;
 }
 .iconosFooter:hover{
     background-color:rgb(166,175,184,0.3) ;

@@ -4,7 +4,10 @@
     box-sizing: border-box;
 
 }
-
+.labelForm{
+    color: white;
+    width: 50vw;
+}
 .tituloFormulario {
     margin-top: 50px;
     margin-bottom: 50px;
@@ -12,7 +15,7 @@
 }
 
 .contenedorFormulario {
-    background-color: rgb(29, 32, 35);
+    background: linear-gradient(0deg, rgba(2, 0, 36, 0.963) 0%, rgba(9, 9, 121, 0.87) 35%, rgba(0, 213, 255, 0.304) 100%);
     width: 100vw;
    
     display: flex;
@@ -24,7 +27,7 @@
 .formulario {
     width: 50%;
     height: 80%;
-    background-color: rgb(29, 32, 35);
+  
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -107,17 +110,39 @@ textarea:hover {
     .tituloFormulario{
         margin-top: 129px;
     }
+    .labelForm{
+       
+        width: 85vw;
+    }
 }
+
+@media (min-width: 768px){
+   .labelForm{
+    width: 56vw;
+   }
+} 
+
 @media (min-width: 1024px){
     .formulario{
         width: 68%;
     }
+    .labelForm{
+        width: 59vw;
+       }
 }
 @media (min-width: 1440px){
+    .contenedorFormulario{
+        height: 100vh;
+    }
     .formulario{
         width: 58%;
     }
+    .labelForm{
+        width: 50vw;
+       }
 }
+
+
 
 @media (min-width: 320px) and (max-width: 910px) and (orientation: landscape){
     .input{

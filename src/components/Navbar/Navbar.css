@@ -7,7 +7,7 @@
     align-items: center;
     padding: 20px;
     background-color: #333333ab; 
-    z-index: 2;/* Puedes ajustar el color de fondo según tus necesidades */
+    z-index: 2;
   }
   
   .brand {
@@ -42,10 +42,10 @@
     cursor: pointer;
     font-size: 15px;
   }
-  .container{
-    margin-left: 0px;
+
+  .link:hover{
+    color: rgb(0, 0, 7);
   }
-  
   
   @media (max-width: 768px) {
     .toggle {

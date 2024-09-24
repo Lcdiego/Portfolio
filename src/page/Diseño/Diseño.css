@@ -121,15 +121,11 @@
 
 
 @media (min-width: 1440px) {
-    .contenedor-img-diseño {
-        width: 43vw;
-
-
-    }
+ 
 
     .pag-diseño {
         width: 89vw;
-        height: 55vh;
+      
        
     }
 }

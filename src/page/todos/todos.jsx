@@ -1,38 +1,40 @@
-import React from 'react';
-import "./todos.css"
+import React, { useState } from 'react';
+import "./todos.css";
 import { Link } from 'react-router-dom';
-import img1 from './img/imagen_1.png';
+import { Modal, Button } from 'react-bootstrap'; 
+import img1 from './img/Pizzeria.png';
+
 import img2 from './img/imagen_2.png';
 import img3 from './img/imagen_3.png';
 import img4 from './img/imagen_4.png';
 import img5 from './img/imagen_5.png';
 import img6 from './img/imagen_6.png';
-import img7 from './img/Pizzeria.png';
+import img7 from './img/imagen_1.png';
 import img10 from './img/banco.png';
+import { anclas, titulos, descripcionProyectos } from './descripcion'
 
-const imagenes = [img1, img2, img3, img4, img5, img6, img7, img10];
-const anclas = [
-  'https://proyecto-jardin-de-infantes.vercel.app/',
-  'https://tp-billetera.vercel.app/',
-  'https://api-rick-and-morty-hjobf54oo-diegocolman14-gmailcom.vercel.app/',
-  'https://to-do-list-2dn9.onrender.com/',
-  'https://proyecto-inmobiliario.vercel.app/',
-  'https://tp-2.onrender.com',
-  'https://pizzeria-khaki.vercel.app/',
-  ' https://banco-saint-patrick-omega.vercel.app/'
-];
+
+const imagenes = [img1, img10, img5, img7, img6, img4, img2, img3];
+
 
 const Todos = () => {
+  const [show, setShow] = useState(false);
+  const [selectedIndex, setSelectedIndex] = useState(null);
+
+  const handleClose = () => setShow(false);
+  const handleShow = (index) => {
+    setSelectedIndex(index);
+    setShow(true);
+  };
+
   return (
-
     <div className='contenedor-pag-todos' id='todos'>
-      <div className='contenedor-titulo-todos'>
-        <h3 className='titulo-todos'>Todos mis Proyectos</h3>
+      <div className='contenedor_titulo_todos'>
+        <h3 className='titulo_todos'>Todos mis Proyectos</h3>
       </div>
-      <div className='pag-todos'>
+      <div className='pag_todos'>
         {imagenes.map((imagen, index) => (
-
-          <div key={index} className='contenedor-img-todos'>
+          <div key={index} className='contenedor_img_todos'>
             <a
               className='ancla-todos'
               href={anclas[index]}
@@ -41,25 +43,42 @@ const Todos = () => {
             >
               <img className="imagen-todos" src={imagen} alt='' />
             </a>
+            {/* Modal trigger */}
+            <Button className='btn_detalle' variant="primary" onClick={() => handleShow(index)}>
+              Más detalles
+            </Button>
           </div>
-
-
         ))}
+
+        {/* Modal */}
+        <Modal className='modal-lg' show={show} onHide={handleClose}>
+          <Modal.Header closeButton className='title'>
+            <Modal.Title>{selectedIndex !== null ? titulos[selectedIndex] : 'No hay detalles disponibles.'}</Modal.Title>
+          </Modal.Header>
+          <Modal.Body className='contenedor_descripcion'>
+            <p className='text_descripcion'>
+              {selectedIndex !== null ? (
+                descripcionProyectos[selectedIndex].split('\n').map((line, index) => (
+                  <p key={index}>{line}</p>
+                ))
+              ) : 'No hay detalles disponibles.'}
+            </p>
+
+          </Modal.Body>
+          <Modal.Footer className='footer'>
+            <Button variant="secondary" onClick={handleClose}>
+              Cerrar
+            </Button>
+          </Modal.Footer>
+        </Modal>
       </div>
-     
       <div>
         <Link className='btn-todos' to={"/Proyectos"}>
-          volver
+          Volver
         </Link>
       </div>
-
     </div>
   );
-}
+};
 
 export default Todos;
-
-
-
-
-

@@ -8,23 +8,17 @@ export const anclas = [
     'https://proyecto-mercado-inmobiliario.vercel.app/',
     'https://proyecto-jardin-de-infantes.vercel.app/',
     'https://tp-2.onrender.com',
+    'https://to-do-list-2dn9.onrender.com/',
     'https://tp-billetera.vercel.app/',
     'https://api-rick-and-morty-hjobf54oo-diegocolman14-gmailcom.vercel.app/',
-    'https://to-do-list-2dn9.onrender.com/',
+    ];
+
+export const titulos = ['Proyecto: Pizzería Don Rémolo', 'Proyecto: banco-saint-patrick', 'Proyecto: inmobiliario', 'Proyecto: jardin-de-infantes', 'Proyecto: Ecomerce libros', 'Proyecto: To-Do List', 'Desarrollo de Wallet Personalizada con HTML y JavaScript utilizando el DOM', 'Rick and Morty Characters Explorer',]
 
 
-
-
-];
-
-
-
-export const titulos = ['Proyecto: Pizzería Don Rémolo', 'banco-saint-patrick', 'proyecto-inmobiliario', 'proyecto-jardin-de-infantes', 'Ecomerce libros', 'To-Do List', 'Desarrollo de Wallet Personalizada con HTML y JavaScript utilizando el DOM', 'Rick and Morty Characters Explorer',]
 export const descripcionProyectos = [
 
-    `
-
-    Descripción del proyecto:
+    ` Descripción del proyecto:
     Pizzería Don Rémolo es una solución innovadora para facilitar pedidos de comida en línea y gestionar pedidos en el local. Este proyecto se desarrolló en colaboración con ID for Ideas.
     
     Colaboradores:

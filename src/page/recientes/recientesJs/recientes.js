@@ -4,13 +4,11 @@
 
 export const anclas = [
     'https://pizzeria-khaki.vercel.app/',
-    ' https://banco-saint-patrick-omega.vercel.app/',
     'https://proyecto-mercado-inmobiliario.vercel.app/',
     'https://proyecto-jardin-de-infantes.vercel.app/',
-    'https://tp-2.onrender.com',
-    'https://tp-billetera.vercel.app/',
-    'https://api-rick-and-morty-hjobf54oo-diegocolman14-gmailcom.vercel.app/',
-    'https://to-do-list-2dn9.onrender.com/',
+    'https://banco-saint-patrick-omega.vercel.app/',
+
+
 
 
 
@@ -19,7 +17,7 @@ export const anclas = [
 
 
 
-export const titulos = ['Proyecto: Pizzería Don Rémolo', 'proyecto-inmobiliario',  'proyecto-jardin-de-infantes','banco-saint-patrick']
+export const titulos = ['Proyecto: Pizzería Don Rémolo', 'proyecto-inmobiliario', 'proyecto-jardin-de-infantes', 'banco-saint-patrick']
 export const descripcionProyectos = [
 
     `
@@ -85,7 +83,7 @@ export const descripcionProyectos = [
 
   https://lnkd.in/d2FGC_A9`,
 
-  /////////////////////////////////////////////////////////////////////////////
+    /////////////////////////////////////////////////////////////////////////////
 
     `Proyecto de Jardín de Infantes - Desafío ID for Ideas, esta realizado en stack M.E.R.N (MongoDb Atlas, Express, React Vite, NodeJS), para darle estilo se uso TailwindCss.
   
@@ -112,7 +110,7 @@ export const descripcionProyectos = [
     https://github.com/Lcdiego
   
     * Federico Sabiche (Argentina) https://lnkd.in/dP9JHrHH`,
-////////////////////////////////////////////////////////////////////
+    ////////////////////////////////////////////////////////////////////
 
     `Proyecto Banco Saint Patrick's - ID for Ideas , esta realizado en stack M.E.R.N (MongoDb Atlas, Express, React Vite, NodeJS), para darle estilo se uso TailwindCss.
     
@@ -142,8 +140,8 @@ export const descripcionProyectos = [
     https://lnkd.in/dP9JHrHH`,
 
 
-   
-    
+
+
 
 
 

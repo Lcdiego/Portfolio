@@ -17,10 +17,10 @@ const Section = () => {
 
         <div className='contenedorSection' id='tecnologias'>
             <div className='contenedor_titulo_section'>
-                <h2 className='titulo_section'>Experiencia tecnologica</h2>
+                <h2 className='titulo_section'>Experiencia tecnológica</h2>
             </div>
 
-            <h3 className='titulo_imagenes'>Frond end</h3>
+            <h3 className='titulo_imagenes'>Front end</h3>
             <div className='imagenes_tecnologias'>
                 <div className='seccion_imagen'>
                     <img className='imagen' src={img_1} alt="" />

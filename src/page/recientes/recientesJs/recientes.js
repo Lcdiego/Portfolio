@@ -17,7 +17,7 @@ export const anclas = [
 
 
 
-export const titulos = ['Proyecto: Pizzería Don Rémolo', 'proyecto-inmobiliario', 'proyecto-jardin-de-infantes', 'banco-saint-patrick']
+export const titulos = ['Proyecto: Pizzería Don Rémolo', 'Proyecto: inmobiliario', 'Proyecto: jardin de infantes', 'Proyecto: banco saint patrick']
 export const descripcionProyectos = [
 
     `

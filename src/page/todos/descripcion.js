@@ -13,7 +13,7 @@ export const anclas = [
     'https://api-rick-and-morty-hjobf54oo-diegocolman14-gmailcom.vercel.app/',
     ];
 
-export const titulos = ['Proyecto: Pizzería Don Rémolo', 'Proyecto: banco-saint-patrick', 'Proyecto: inmobiliario', 'Proyecto: jardin-de-infantes', 'Proyecto: Ecomerce libros', 'Proyecto: To-Do List', 'Desarrollo de Wallet Personalizada con HTML y JavaScript utilizando el DOM', 'Rick and Morty Characters Explorer',]
+export const titulos = ['Proyecto: Pizzería Don Rémolo', 'Proyecto: banco saint patrick', 'Proyecto: inmobiliario', 'Proyecto: jardin de infantes', 'Proyecto: Ecomerce libros', 'Proyecto: To-Do List', 'Desarrollo de Wallet Personalizada con HTML y JavaScript utilizando el DOM', 'Rick and Morty Characters Explorer',]
 
 
 export const descripcionProyectos = [

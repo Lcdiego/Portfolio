@@ -74,3 +74,8 @@
     }
   }
   
+  @media (min-width: 320px) and (max-width: 910px) and (orientation: landscape) and (max-height: 480px) {
+    .container{
+      max-width: none;
+    }
+  }

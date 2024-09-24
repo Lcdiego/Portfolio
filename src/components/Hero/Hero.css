@@ -318,3 +318,14 @@ hr {
         margin-top: 144px;
     }
 }
+
+@media (min-width: 320px) and (max-width: 910px) and (orientation: landscape) and (max-height: 480px) {
+    .contenedor-hero{
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding-top: 30px;
+    }
+    .contenedorIconos{
+        margin-top: 50px;
+    }
+}

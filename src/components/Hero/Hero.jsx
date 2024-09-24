@@ -43,7 +43,11 @@ const HeroNavbar = () => {
         // Pantallas de hasta 720px
         gsap.to(".my-element", { duration: 2, x: 230, ease: 'power3.out' });
         gsap.to(".my-element2", { duration: 2, x: -100, ease: 'power3.out' });
-      } else if (screenWidth <= 768) {
+      } else if (screenWidth <= 765) {
+        // Pantallas de hasta 720px
+        gsap.to(".my-element", { duration: 2, x: 150, ease: 'power3.out' });
+        gsap.to(".my-element2", { duration: 2, x: -210, ease: 'power3.out' });
+      }else if (screenWidth <= 768) {
         // Pantallas de hasta 720px
         gsap.to(".my-element", { duration: 2, x: 78, ease: 'power3.out' });
         gsap.to(".my-element2", { duration: 2, x: -110, ease: 'power3.out' });

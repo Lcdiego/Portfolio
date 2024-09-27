@@ -1,4 +1,18 @@
 /* Menu.css */
+.switch-btn {
+  background-color: #285dc9; /* bg-gray-200 */
+  color: #000;
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.switch-btn:hover {
+  background-color: #d1d5db; /* bg-gray-300 */
+}
+
 .menuHorizontal {
     width: 100vw;
     position: fixed;

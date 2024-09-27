@@ -42,6 +42,17 @@ hr {
 
 }
 
+.darkHero {
+   
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
+    url('./img/hero.jpg')no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+}
+
 .contenedor-hero {
     position: relative;
     z-index: 1;
@@ -213,9 +224,11 @@ hr {
     }
 
     .contenedor-hero {
-        margin-top: 20%;
-        margin-bottom: 20%;
-        height: 80vh;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
     }
 
     .iconos {
@@ -236,12 +249,7 @@ hr {
     }
 }
 
-@media (min-width: 640px) {
-    .contenedor-hero {
-
-        margin-top: 20%;
-    }
-}
+@media (min-width: 640px) {}
 
 .contenedorIconos {
     margin-top: 37%;
@@ -272,12 +280,7 @@ hr {
         margin-top: 15%;
     }
 
-    .contenedor-hero {
-        margin-top: 5%;
-        margin-bottom: 10%;
-        height: 85vh;
-        justify-content: center;
-    }
+ 
 
     .lineas {
         display: flex;
@@ -289,25 +292,12 @@ hr {
     }
 }
 
-@media (min-width: 800px) {
-    .contenedor-hero {
+@media (min-width: 800px) {}
 
-        margin-top: 14%;
-    }
-}
-
-@media (min-width: 1024px) {
-    .contenedor-hero {
-
-        margin-top: 3%;
-    }
-}
+@media (min-width: 1024px) {}
 
 @media (min-width:1440px) {
-    .contenedor-hero {
-        margin-top: 5%;
-        margin-bottom: 45px;
-    }
+
 
     .img {
         width: 180px;
@@ -320,12 +310,13 @@ hr {
 }
 
 @media (min-width: 320px) and (max-width: 910px) and (orientation: landscape) and (max-height: 480px) {
-    .contenedor-hero{
+    .contenedor-hero {
         margin-top: 0px;
         margin-bottom: 0px;
         padding-top: 30px;
     }
-    .contenedorIconos{
+
+    .contenedorIconos {
         margin-top: 50px;
     }
 }

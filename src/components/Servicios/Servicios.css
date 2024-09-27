@@ -25,9 +25,6 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
-
-
-
 }
 
 .contenedorEtiqueas {
@@ -55,6 +52,10 @@
 .servicios {
     width: 100vw;
     background: linear-gradient(180deg, rgba(2, 0, 36, 0.963) 0%, rgba(9, 9, 121, 0.87) 35%, rgba(0, 213, 255, 0.304) 100%);
+}
+
+.darkServicion{
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.963) 0%, rgba(0, 0, 0, 0.833) 45%, rgba(0, 0, 0, 0.7)100%)
 }
 
 .tituloEtiqueta {

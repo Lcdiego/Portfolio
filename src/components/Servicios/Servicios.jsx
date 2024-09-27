@@ -1,14 +1,15 @@
 import React from 'react';
 import '../Servicios/Servicios.css'
+import { useDarkMode } from '../Contex/Contex';
 import { Link } from 'react-router-dom';
 import {FaPencilAlt,FaCode  } from "react-icons/fa";
 import { DiMongodb} from "react-icons/di";
 
 const Servicios = () => {
-
+    const { isDarkMode } = useDarkMode();
  
     return(
-        <div className='servicios'id='servicios'>
+        <div className= {`${isDarkMode?'darkServicion': 'servicios'}`}id='servicios'>
             <div className='contenedor-titulo-servicios'>
             <h1 className='titulo_Etiqueta'>Lo que hago</h1>
             </div>

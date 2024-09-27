@@ -14,6 +14,7 @@ import Diseño from './page/Diseño/Diseño';
 import ProyectosFuturos from './page/Proyectos-Futuros/ProyectosFuturos';
 import Navbar from './components/Navbar/Navbar';
 import DescripcionProyectos from './components/DescripcionProyectos/DescripcionProyectos';
+import { DarkModeProvider } from './components/Contex/Contex';
 
 
 const mostrar = () => (
@@ -29,7 +30,9 @@ const mostrar = () => (
 
 const App = () => (
   <React.StrictMode>
+   
     <Router>
+    <DarkModeProvider>
       <Navbar />
       <Routes>
       <Route path="/" element= {mostrar()} />
@@ -51,7 +54,9 @@ const App = () => (
      
      
       <Footer />
+      </DarkModeProvider>
     </Router>
+
   </React.StrictMode>
 );
 

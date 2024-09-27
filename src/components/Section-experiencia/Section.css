@@ -10,15 +10,25 @@
         url('./img/imagen_10.jpg') center center no-repeat;
     background-size: cover;
     width: 100vw;
-    
-
-
-
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
+
+.darkSection {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url('./img/imagen_10.jpg') center center no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
 
 .contenedor_titulo_section {
     width: 90%;
@@ -58,7 +68,7 @@
     margin-top: 20px;
     margin-left: 10%;
     margin-right: 10%;
-    
+
 
 
 }
@@ -80,59 +90,68 @@
     width: 10%;
     margin-bottom: 40px;
 }
-.imagen{
+
+.imagen {
     width: 100%;
     height: 100%;
 }
-@media(min-width:320px){
-    .titulo_section{
+
+@media(min-width:320px) {
+    .titulo_section {
         font-size: 30px;
         margin-top: 64px;
     }
-    .titulo_imagenes{
+
+    .titulo_imagenes {
         font-size: 30px;
         margin-top: 20px;
     }
-    .seccion_imagen{
+
+    .seccion_imagen {
         width: 25%;
         margin-right: 20px;
     }
-    
-    
+
+
+}
+
+@media(min-width:768px) {
+    .titulo_section {
+        font-size: 30px;
+        margin-top: 54px;
+        margin-left: 45px;
+
     }
 
-@media(min-width:768px){
-.titulo_section{
-    font-size: 30px;
-    margin-top: 54px;
-    margin-left: 45px;
-    
-}
-.titulo_imagenes{
-    font-size: 30px;
-    margin-bottom: 0px;
-}
-.seccion_imagen{
-    width: 15%;
-}
-.contenedorSection{
-    height: 100vh;
-   
-}
+    .titulo_imagenes {
+        font-size: 30px;
+        margin-bottom: 0px;
+    }
+
+    .seccion_imagen {
+        width: 15%;
+    }
+
+    .contenedorSection {
+        height: 100vh;
+
+    }
 
 }
-@media(min-width:1024px){
-    .titulo_section{
+
+@media(min-width:1024px) {
+    .titulo_section {
         margin-left: 60px;
     }
 }
 
 
-@media(min-width:1440px){
-    .seccion_imagen{
+@media(min-width:1440px) {
+    .seccion_imagen {
         width: 10%;
     }
-    .titulo_section{
+
+    .titulo_section {
         margin-left: 110px;
     }
 }

@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import '../Proyectos/Proyectos.css';
+import { useDarkMode } from '../Contex/Contex';
 import img1 from './img/imagen_1.png';
 import img2 from './img/imagen_2.png';
 import img3 from './img/imagen_3.png';
@@ -14,6 +15,7 @@ import img11 from './img/imagen_10.png'
 import { Carousel } from 'react-bootstrap';
 
 const Proyecto = () => {
+    const { isDarkMode } = useDarkMode();
     const [opcionSeleccionada] = useState('Todos');
 
     const mostrarProyectos = () => {
@@ -107,7 +109,7 @@ const Proyecto = () => {
     }
 
     return (
-        <div className='contenedor-Proyectos' id='proyectos'>
+        <div className={`${isDarkMode ? 'darkProyectos' : 'contenedor-Proyectos'}`} id='proyectos'>
             <div className='contenedor-titulo-proyectos'>
                 <h1 className='tituloProyectos'>Proyectos</h1>
             </div>

@@ -1,12 +1,14 @@
 // Menu.jsx
 import React, { useState } from 'react';
-
+import { useDarkMode } from '../Contex/Contex';
 import { Link } from 'react-router-dom';
 import { FiMenu } from "react-icons/fi";
 import './Navbar.css';
+import { Moon, Sun } from '../icons/icons';
 
 
 const Menu = () => {
+    const { isDarkMode, toggleDarkMode } = useDarkMode();
     const [menuOpen, setMenuOpen] = useState(false);
 
     const handleMenuToggle = () => {
@@ -82,7 +84,21 @@ const Menu = () => {
                     >
                         Contacto
                     </Link>
-               
+                    <div
+                        onClick={toggleDarkMode}
+                        style={{
+                            marginLeft:12,
+                            cursor: "pointer",
+                        }}
+                    >
+                        {isDarkMode ? (
+                            <Sun color="#c9a4e8" />
+                        ) : (
+                            <Moon color="#c9a4e8" />
+                        )}
+                    </div>
+
+
                 </div>
             </div>
         </div>

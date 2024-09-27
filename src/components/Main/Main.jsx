@@ -1,9 +1,14 @@
 import React from 'react';
 import './Main.css';
 import { FaDownload } from "react-icons/fa";
+import { useDarkMode } from '../Contex/Contex';
+
 import gsap from 'gsap';
 
 const Main = () => {
+    
+    const { isDarkMode } = useDarkMode();
+
     gsap.fromTo(".box",
         { opacity: 0, scale: 0.5 },
         { opacity: 1, scale: 1, duration: 2 }
@@ -14,7 +19,7 @@ const Main = () => {
     return (
 
 
-        <div className='contenedorFoto' id='main'>
+        <div className= {` ${ isDarkMode ? 'darkMain' : 'contenedorFoto'} `}id='main'>
             
             <div className='contenedorImagen_caja'>
                 <div className='img box'></div>

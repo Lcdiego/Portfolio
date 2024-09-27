@@ -4,10 +4,12 @@
     box-sizing: border-box;
 
 }
-.labelForm{
+
+.labelForm {
     color: white;
     width: 50vw;
 }
+
 .tituloFormulario {
     margin-top: 50px;
     margin-bottom: 50px;
@@ -17,17 +19,25 @@
 .contenedorFormulario {
     background: linear-gradient(0deg, rgba(2, 0, 36, 0.963) 0%, rgba(9, 9, 121, 0.87) 35%, rgba(0, 213, 255, 0.304) 100%);
     width: 100vw;
-   
+
     display: flex;
     flex-direction: column;
-   
+
+    align-items: center;
+}
+
+.darkFormulario {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.963) 0%, rgba(0, 0, 0, 0.833) 45%, rgba(0, 0, 0, 0.7)100%);
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
     align-items: center;
 }
 
 .formulario {
     width: 50%;
     height: 80%;
-  
+
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -103,53 +113,60 @@ textarea:hover {
     color: #212529
 }
 
-@media (min-width: 320px){
-    .formulario{
+@media (min-width: 320px) {
+    .formulario {
         width: 98%;
     }
-    .tituloFormulario{
+
+    .tituloFormulario {
         margin-top: 129px;
     }
-    .labelForm{
-       
+
+    .labelForm {
+
         width: 85vw;
     }
 }
 
-@media (min-width: 768px){
-   .labelForm{
-    width: 56vw;
-   }
-} 
+@media (min-width: 768px) {
+    .labelForm {
+        width: 56vw;
+    }
+}
 
-@media (min-width: 1024px){
-    .formulario{
+@media (min-width: 1024px) {
+    .formulario {
         width: 68%;
     }
-    .labelForm{
+
+    .labelForm {
         width: 59vw;
-       }
+    }
 }
-@media (min-width: 1440px){
-    .contenedorFormulario{
+
+@media (min-width: 1440px) {
+    .contenedorFormulario {
         height: 100vh;
     }
-    .formulario{
+
+    .formulario {
         width: 58%;
     }
-    .labelForm{
+
+    .labelForm {
         width: 50vw;
-       }
+    }
 }
 
 
 
-@media (min-width: 320px) and (max-width: 910px) and (orientation: landscape){
-    .input{
+@media (min-width: 320px) and (max-width: 910px) and (orientation: landscape) {
+    .input {
         height: 11vh;
-        
+
     }
-    .formulario{
+
+    .formulario {
         width: 65%;
     }
 }

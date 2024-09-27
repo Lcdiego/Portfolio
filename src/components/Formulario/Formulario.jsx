@@ -1,10 +1,14 @@
 import React, { useState, useEffect } from 'react';
 import '../Formulario/Formulario.css';
+import { useDarkMode } from '../Contex/Contex';
 import { useForm, ValidationError } from '@formspree/react';
 import Swal from 'sweetalert2/dist/sweetalert2.js';
 import 'sweetalert2/src/sweetalert2.scss';
 
 const Formulario = () => {
+
+    const { isDarkMode } = useDarkMode();
+
     const [state, handleSubmit] = useForm("movaoykw");
 
 
@@ -41,12 +45,12 @@ const Formulario = () => {
     }, [state.succeeded]);
 
     return (
-        <div className='contenedorFormulario' id='contacto'>
+        <div className={`${isDarkMode ? 'darkFormulario' : 'contenedorFormulario'}`} id='contacto'>
             <h1 className='tituloFormulario'>Contáctate</h1>
 
             <form className='formulario' onSubmit={handleSubmit}>
                 <label className='labelForm' htmlFor="email">
-                    Email 
+                    Email
                 </label>
                 <input
                     placeholder='Email'
@@ -64,7 +68,7 @@ const Formulario = () => {
                     errors={state.errors}
                 />
                 <label className='labelForm' htmlFor="textarea">
-                   Mensaje
+                    Mensaje
                 </label>
                 <textarea
                     placeholder='Escribe tu mensaje aquí...' cols="15" rows="5"

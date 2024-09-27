@@ -1,5 +1,6 @@
 import React from 'react';
 import '../Section-experiencia/Section.css';
+import { useDarkMode } from '../Contex/Contex';
 import img_1 from './img/html.png'
 import img_2 from './img/css.png'
 import img_3 from './img/javascript.png'
@@ -12,10 +13,14 @@ import img_9 from './img/mongodb.png'
 import img_10 from './img/mysql.png'
 
 
+
 const Section = () => {
+
+    const { isDarkMode } = useDarkMode();
+
     return (
 
-        <div className='contenedorSection' id='tecnologias'>
+        <div className={`${isDarkMode? 'darkSection' :'contenedorSection'}`} id='tecnologias'>
             <div className='contenedor_titulo_section'>
                 <h2 className='titulo_section'>Experiencia tecnológica</h2>
             </div>

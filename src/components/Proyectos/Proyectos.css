@@ -17,6 +17,13 @@ html {
         url('./img/imagen_9.jpg') center center no-repeat;
     background-size: cover;
 }
+.darkProyectos{
+    text-align: center;
+    width: 100vw;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url('./img/imagen_9.jpg') center center no-repeat;
+    background-size: cover;
+}
 
 .contenedor-titulo-proyectos {
     color: white;

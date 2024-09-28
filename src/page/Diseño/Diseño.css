@@ -9,6 +9,17 @@
 
 
 }
+.dark-diseño {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url('./img/imagen_9.jpg') center center no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+
+}
 
 .titulo-diseño {
     color: white;

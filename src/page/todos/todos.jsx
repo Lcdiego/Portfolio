@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import "./todos.css";
 import { Link } from 'react-router-dom';
 import { Modal, Button } from 'react-bootstrap'; 
+import { useDarkMode } from '../../components/Contex/Contex';
 import img1 from './img/Pizzeria.png';
 
 import img2 from './img/imagen_2.png';
@@ -18,6 +19,7 @@ const imagenes = [img1, img10, img5, img7, img6, img4, img2, img3];
 
 
 const Todos = () => {
+  const { isDarkMode } = useDarkMode();
   const [show, setShow] = useState(false);
   const [selectedIndex, setSelectedIndex] = useState(null);
 
@@ -28,7 +30,7 @@ const Todos = () => {
   };
 
   return (
-    <div className='contenedor-pag-todos' id='todos'>
+    <div className={`${isDarkMode?'dark-todos': 'contenedor-pag-todos'}`} id='todos'>
       <div className='contenedor_titulo_todos'>
         <h3 className='titulo_todos'>Todos mis Proyectos</h3>
       </div>

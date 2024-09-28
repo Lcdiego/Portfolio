@@ -118,7 +118,7 @@ const Proyecto = () => {
                 <div className='link-proyectos'>
                     <Link to="/todos" className='menuProyecto'>
                         <div className='contenedor-a'>
-                            Todos
+                            Mas detalles
                         </div>
                     </Link>
                     <Link to="/recientes" className='menuProyecto'>

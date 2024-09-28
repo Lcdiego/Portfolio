@@ -1,5 +1,6 @@
 import React from 'react';
-import "./Proyectos_Futuros.css"
+import "./Proyectos_Futuros.css";
+import { useDarkMode } from '../../components/Contex/Contex';
 import { Link } from 'react-router-dom';
 import img1 from './img/pizzeria_1.png';
 
@@ -12,9 +13,10 @@ const anclas = [
 ];
 
 const ProyectosFuturos = () => {
+  const { isDarkMode } = useDarkMode();
   return (
     
-    <div className='contenedor-pag-Proyectos_Futuros'>
+    <div className={`${isDarkMode? 'dark-futuros': 'contenedor-pag-Proyectos_Futuros'}`}>
         <div>
             <h2 className='titulo-Proyectos_Futuros'>Proyectos futuros</h2>
         </div>

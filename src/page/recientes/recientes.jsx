@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import "./Recientes.css";
 import { anclas,descripcionProyectos,titulos } from './recientesJs/recientes';
+import { useDarkMode } from '../../components/Contex/Contex';
 import { Link } from 'react-router-dom';
 import img1 from './img/imagen_1.png';
 import img5 from './img/imagen_5.png';
@@ -13,7 +14,7 @@ const imagenes = [img6, img5, img1, img10];
 
 
 const Recientes = () => {
-
+  const { isDarkMode } = useDarkMode();
   const [show, setShow] = useState(false);
   const [selectedIndex, setSelectedIndex] = useState(null);
 
@@ -24,7 +25,7 @@ const Recientes = () => {
   };
   return (
 
-    <div className='contenedor-pag-recientes'>
+    <div className={`${isDarkMode? 'dark-recientes': 'contenedor-pag-recientes'}`}>
       <div className='contenedor-titulo-recientes'>
         <h2 className='titulo-recientes'>Proyectos Recientes</h2>
       </div>

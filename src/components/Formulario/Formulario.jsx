@@ -11,12 +11,10 @@ const Formulario = () => {
 
     const [state, handleSubmit] = useForm("movaoykw");
 
-
     const [formData, setFormData] = useState({
         email: '',
         message: ''
     });
-
 
     const handleInputChange = (e) => {
         const { name, value } = e.target;
@@ -25,7 +23,6 @@ const Formulario = () => {
             [name]: value
         });
     };
-
 
     useEffect(() => {
         if (state.succeeded) {
@@ -78,15 +75,29 @@ const Formulario = () => {
                     onChange={handleInputChange}
                     required
                 />
-                <ValidationError
-                    prefix="Message"
-                    field="message"
-                    errors={state.errors}
-                />
+
                 <button className='boton' type="submit" disabled={state.submitting}>
-                    Enviar
+                    {state.submitting ? 'Enviando...' : 'Enviar'}
                 </button>
+                {state.submitting && (
+                <div className="loader">
+                    <div className="bar1"></div>
+                    <div className="bar2"></div>
+                    <div className="bar3"></div>
+                    <div className="bar4"></div>
+                    <div className="bar5"></div>
+                    <div className="bar6"></div>
+                    <div className="bar7"></div>
+                    <div className="bar8"></div>
+                    <div className="bar9"></div>
+                    <div className="bar10"></div>
+                    <div className="bar11"></div>
+                    <div className="bar12"></div>
+                </div>
+            )}
             </form>
+
+          
         </div>
     );
 }

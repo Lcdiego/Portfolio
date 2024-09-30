@@ -17,7 +17,8 @@ html {
         url('./img/imagen_9.jpg') center center no-repeat;
     background-size: cover;
 }
-.darkProyectos{
+
+.darkProyectos {
     text-align: center;
     width: 100vw;
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
@@ -60,10 +61,7 @@ html {
     text-decoration: none;
 }
 
-.menuProyecto:hover {
-    background-color: rgb(166, 175, 184, 0.3);
 
-}
 
 .contenedor-carrusel-proyectos {
     height: 79vh;
@@ -111,7 +109,8 @@ html {
         justify-content: space-around;
 
     }
-    .darkProyectos{
+
+    .darkProyectos {
         height: 86vh;
         display: flex;
         flex-direction: column;
@@ -146,11 +145,45 @@ html {
     }
 
     .contenedor-a {
-        background-color: #4f4d4dab;
-        margin: 3px;
-        border-radius: 3px;
-
+        padding: 8px 30px;
+        margin-bottom: 10px;
+        font-size: 18px;
+        outline: none;
+        border: none;
+        border-radius: 5px;
+        transition: 0.5s;
+        background: #1e1e1e;
+        cursor: pointer;
+        color: white;
+        box-shadow: 0 0 10px #363636, inset 0 0 10px #679fec;
     }
+
+    .contenedor-a:hover {
+        animation: a 0.5s 1 linear;
+    }
+
+    @keyframes a {
+        0% {
+            transform: scale(0.7, 1.3);
+        }
+
+        25% {
+            transform: scale(1.3, 0.7);
+        }
+
+        50% {
+            transform: scale(0.7, 1.3);
+        }
+
+        75% {
+            transform: scale(1.3, 0.7);
+        }
+
+        100% {
+            transform: scale(1, 1);
+        }
+    }
+
 
     .contenedor-carrusel-proyectos {
         height: 40vh;
@@ -203,9 +236,7 @@ html {
         flex-direction: row;
     }
 
-    .menuProyecto {
-        width: 150px;
-    }
+   
 
     .contenedor-proyecto-imagen {
         height: 50vh;
@@ -268,9 +299,10 @@ html {
     .contenedor-Proyectos {
         height: auto;
     }
-    .contenedor-proyecto-imagen{
+
+    .contenedor-proyecto-imagen {
         height: 60vh;
-   
+
     }
 
     .tituloProyectos {

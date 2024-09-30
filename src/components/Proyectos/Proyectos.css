@@ -105,11 +105,17 @@ html {
 
 @media(min-width:320px) {
     .contenedor-Proyectos {
-        height: 85vh;
+        height: 86vh;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
 
+    }
+    .darkProyectos{
+        height: 86vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
     }
 
     .carousel-indicators [data-bs-target] {

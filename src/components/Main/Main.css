@@ -17,7 +17,6 @@
  .darkMain {
      display: flex;
      justify-content: center;
-     height: 100vh;
      background: linear-gradient(90deg, rgba(0, 0, 0, 0.963) 0%, rgba(0, 0, 0, 0.833) 45%, rgba(0, 0, 0, 0.7)100%)
  }
 

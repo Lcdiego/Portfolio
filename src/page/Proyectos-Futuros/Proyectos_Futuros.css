@@ -77,7 +77,12 @@
 
 @media (min-width: 320px) {
     .contenedor-pag-Proyectos_Futuros{
-        height: 85vh;
+        height: 86vh;
+        display: flex;
+        justify-content: space-around
+    }
+    .dark-futuros{
+        height: 86vh;
         display: flex;
         justify-content: space-around
     }

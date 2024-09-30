@@ -215,6 +215,9 @@ html {
 
 
 @media(min-width:768px) {
+    .darkProyectos {
+        height: auto;
+    }
 
     .carousel-control-next-icon,
     .carousel-control-prev-icon {
@@ -236,7 +239,7 @@ html {
         flex-direction: row;
     }
 
-   
+
 
     .contenedor-proyecto-imagen {
         height: 50vh;

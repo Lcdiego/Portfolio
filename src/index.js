@@ -19,41 +19,41 @@ import { DarkModeProvider } from './components/Contex/Contex';
 
 const mostrar = () => (
   <React.Fragment>
-    <Hero/>
-    <Main/>
-    <Section/>
-    <Servicios/>
-    <Proyectos/>
-    <Formulario/>
+    <Hero />
+    <Main />
+    <Proyectos />
+    <Section />
+    <Servicios />
+    <Formulario />
   </React.Fragment>
 );
 
 const App = () => (
   <React.StrictMode>
-   
-    <Router>
-    <DarkModeProvider>
-      <Navbar />
-      <Routes>
-      <Route path="/" element= {mostrar()} />
-      <Route path="/descripcion-proyectos" element={<DescripcionProyectos />} />
-        <Route path="/todos" element={<Todos />} />
-        <Route path="/recientes" element={<Recientes />} />
-        <Route path="/Diseño" element={<Diseño />} />
-        <Route path="/ProyectosFuturos" element={<ProyectosFuturos />} />
-        <Route path="/Proyectos" element={<Proyectos/>} />
-        <Route path="/Main" element={<Main/>} />
-        <Route path="/Tecnologias" element={<Section/>} />
-        <Route path="/Servicios" element={<Servicios/>} />
-        <Route path="/Formulario" element={<Formulario/>} />
 
-      </Routes>
-     
-      
-     
-     
-     
-      <Footer />
+    <Router>
+      <DarkModeProvider>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={mostrar()} />
+          <Route path="/descripcion-proyectos" element={<DescripcionProyectos />} />
+          <Route path="/todos" element={<Todos />} />
+          <Route path="/recientes" element={<Recientes />} />
+          <Route path="/Diseño" element={<Diseño />} />
+          <Route path="/ProyectosFuturos" element={<ProyectosFuturos />} />
+          <Route path="/Proyectos" element={<Proyectos />} />
+          <Route path="/Main" element={<Main />} />
+          <Route path="/Tecnologias" element={<Section />} />
+          <Route path="/Servicios" element={<Servicios />} />
+          <Route path="/Formulario" element={<Formulario />} />
+
+        </Routes>
+
+
+
+
+
+        <Footer />
       </DarkModeProvider>
     </Router>
 

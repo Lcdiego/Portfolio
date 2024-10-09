@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { useDarkMode } from '../Contex/Contex';
 import { Link } from 'react-router-dom';
 import { FiMenu } from "react-icons/fi";
+import { GrClose } from "react-icons/gr";
 import './Navbar.css';
 import { Moon, Sun } from '../icons/icons';
 
@@ -26,9 +27,15 @@ const Menu = () => {
         <div className={`menuHorizontal ${menuOpen ? 'open' : ''}`}>
             <div className="container">
                 <div className="brand">
-                    <span className="toggle" onClick={handleMenuToggle}>
+                {menuOpen ?(
+                    <span>
+                        <GrClose className='hamburg'  onClick={cerrar} />
+                    </span>
+                    ): <span className="toggle" >
+                   <span className="toggle" onClick={handleMenuToggle}>
                         <FiMenu className='hamburg' />
                     </span>
+                </span>}
                 </div>
                 <div className={`menu ${menuOpen ? 'show' : ''}`}>
                     <Link

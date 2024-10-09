@@ -2,15 +2,15 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import '../Proyectos/Proyectos.css';
 import { useDarkMode } from '../Contex/Contex';
-import img1 from './img/imagen_1.png';
-import img2 from './img/imagen_2.png';
-import img3 from './img/imagen_3.png';
-import img4 from './img/imagen_4.png';
-import img5 from './img/imagen_5.png';
-import img6 from './img/imagen_6.png';
-import img7 from './img/Pizzeria.png';
-import img10 from './img/banco.png';
-import img11 from './img/imagen_10.png'
+import img1 from './img/proyectos/imagen_1.png';
+import img2 from './img/proyectos/imagen_2.png';
+import img3 from './img/proyectos/imagen_3.png';
+import img4 from './img/proyectos/imagen_4.png';
+import img5 from './img/proyectos/imagen_5.png';
+import img6 from './img/proyectos/imagen_6.png';
+import img7 from './img/proyectos/Pizzeria.png';
+import img10 from './img/proyectos/banco.png';
+import img11 from './img/proyectos/imagen_10.png'
 
 import { Carousel } from 'react-bootstrap';
 
